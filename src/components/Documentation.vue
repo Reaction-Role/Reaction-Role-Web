@@ -19,15 +19,24 @@
                 <ul class="menu-list">
                     <li>
                         <router-link to="/Documentation"
-                        exact-active-class="is-active">Prerequisite</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="list-ul"></b-icon>
+                            <span>Prerequisite</span>
+                        </router-link>
                     </li>
                     <li>
                         <router-link to="/Documentation/ParameterTypes"
-                        exact-active-class="is-active">Parameter Types</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="clone" pack="far"></b-icon>
+                            <span>Parameter Types</span>
+                        </router-link>
                     </li>
                     <li>
                         <router-link to="/Documentation/FindMessageID"
-                        exact-active-class="is-active">Find Message ID</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="search"></b-icon>
+                            <span>Find Message ID</span>
+                        </router-link>
                     </li>
                 </ul>
                 <p class="menu-label">
@@ -94,6 +103,30 @@
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        <router-link to="/Documentation/Utilities"
+                        exact-active-class="is-active">Utilities</router-link>
+                        <ul>
+                            <li>
+                                <router-link to="/Documentation/Utilities#Help"
+                                exact-active-class="is-active">
+                                    Help
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/Utilities#FetchMessage"
+                                exact-active-class="is-active">
+                                    Fetch Message Reaction Roles
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/Utilities#FetchLock"
+                                exact-active-class="is-active">
+                                    Fetch Message Locks
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -118,3 +151,10 @@ tr > td:nth-child(3) {
     text-align: center;
 }
 </style>
+
+<style scoped>
+span.icon {
+    vertical-align: middle;
+}
+</style>
+
