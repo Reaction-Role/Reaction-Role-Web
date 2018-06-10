@@ -63,3 +63,9 @@ export default {
     name: 'Documentation',
 };
 </script>
+
+<style>
+tr > td:nth-child(3) {
+    text-align: center;
+}
+</style>
