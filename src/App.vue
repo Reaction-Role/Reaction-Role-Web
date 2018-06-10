@@ -16,7 +16,7 @@
                     </div>
                     <div class="navbar-menu">
                         <div class="navbar-start">
-                            <router-link to="/docs" class="navbar-item">
+                            <router-link to="/documentation" class="navbar-item">
                                 <b-icon icon="file-alt" pack="far"></b-icon>&nbsp;
                                 <span>Documentation</span>
                             </router-link>
@@ -48,9 +48,13 @@
             </div>
         </div>
         <div class="hero-footer">
-            <footer class="container footer content has-text-centered">
-                Constructed and curated by <a href="https://keybase.io/rumblefrog" target="_blank">Fishy!#6593</a>
-            </footer>
+            <div class="container">
+                <footer class="footer">
+                    <div class="content has-text-centered">
+                        Constructed and curated by <a href="https://keybase.io/rumblefrog" target="_blank">Fishy!#6593</a>
+                    </div>
+                </footer>
+            </div>
         </div>
     </section>
 </template>
