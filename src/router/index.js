@@ -17,12 +17,12 @@ export default new Router({
         {
             path: '/doc',
             name: 'Documentation',
-            component: Documentation
+            component: Documentation,
         },
         {
             path: '/faq',
             name: 'FAQ',
-            component: FAQ
+            component: FAQ,
         },
     ],
 });
