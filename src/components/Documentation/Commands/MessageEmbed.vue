@@ -11,8 +11,8 @@
 
         <h3>Regular vs Embedded Message</h3>
 
-        <img src="/static/img/regular.png" alt="Regular">
-        <img src="/static/img/color_picker.png" alt="Embedded">
+        <img src="/static/img/regular.png" alt="Regular" class="image">
+        <img src="/static/img/color_picker.png" alt="Embedded" class="image">
 
         <h3 id="Create">Creating Embed</h3>
 
