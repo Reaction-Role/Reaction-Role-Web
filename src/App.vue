@@ -49,7 +49,7 @@
         </div>
         <div class="hero-footer">
             <footer class="container footer content has-text-centered">
-                Constructed and curated by Fishy!#6593
+                Constructed and curated by <a href="https://keybase.io/rumblefrog" target="_blank">Fishy!#6593</a>
             </footer>
         </div>
     </section>
@@ -70,3 +70,10 @@ export default {
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 </style>
+
+<style>
+.footer {
+    background-color: inherit;
+}
+</style>
+
