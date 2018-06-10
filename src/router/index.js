@@ -4,9 +4,7 @@ import Router from 'vue-router';
 import Home from '@/components/Home';
 
 import Documentation from '@/components/Documentation';
-
 import Prerequisite from '@/components/Documentation/Overview/Prerequisite';
-
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
 
 import FAQ from '@/components/FAQ';
