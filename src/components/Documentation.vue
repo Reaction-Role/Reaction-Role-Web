@@ -30,7 +30,11 @@
                         <router-link to="/Documentation/MessageEmbed"
                         exact-active-class="is-active">Message Embed</router-link>
                         <ul>
-                            <li><a href="#test">Create Embed</a></li>
+                            <li>
+                                <router-link to="/Documentation/MessageEmbed#Create">
+                                    Create Embed
+                                </router-link>
+                            </li>
                             <li><a>Edit Embed</a></li>
                         </ul>
                     </li>

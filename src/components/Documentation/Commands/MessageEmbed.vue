@@ -7,6 +7,14 @@
             However, it can make your server look more professional if done correctly
         </p>
 
+        <hr>
+
+        <h3>Regular vs Embedded Message</h3>
+
+        <img src="~@/assets/img/regular.png" alt="Regular">
+        <img src="~@/assets/img/color_picker.png" alt="Embedded">
+
+        <h3 id="Create">Creating Embed</h3>
 
     </div>
 </template>
