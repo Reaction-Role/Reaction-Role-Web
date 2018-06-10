@@ -25,6 +25,10 @@
                         <router-link to="/Documentation/ParameterTypes"
                         exact-active-class="is-active">Parameter Types</router-link>
                     </li>
+                    <li>
+                        <router-link to="/Documentation/FindMessageID"
+                        exact-active-class="is-active">Find Message ID</router-link>
+                    </li>
                 </ul>
                 <p class="menu-label">
                     Commands
@@ -49,10 +53,21 @@
                         </ul>
                     </li>
                     <li>
-                        <a>Reaction Role</a>
+                        <router-link to="/Documentation/ReactionRole"
+                        exact-active-class="is-active">Reaction Role</router-link>
                         <ul>
-                            <li><a>Create Reaction Role</a></li>
-                            <li><a>Delete Reaction Role</a></li>
+                            <li>
+                                <router-link to="/Documentation/ReactionRole#Create"
+                                exact-active-class="is-active">
+                                    Create Reaction Role
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/ReactionRole#Delete"
+                                exact-active-class="is-active">
+                                    Delete Reaction Role
+                                </router-link>
+                            </li>
                         </ul>
                     </li>
                 </ul>

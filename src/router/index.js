@@ -6,7 +6,9 @@ import Home from '@/components/Home';
 import Documentation from '@/components/Documentation';
 import Prerequisite from '@/components/Documentation/Overview/Prerequisite';
 import ParameterTypes from '@/components/Documentation/Overview/ParameterTypes';
+import FindMessageID from '@/components/Documentation/Overview/FindMessageID';
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
+import ReactionRole from '@/components/Documentation/Commands/ReactionRole';
 
 import FAQ from '@/components/FAQ';
 
@@ -32,8 +34,16 @@ export default new Router({
                     component: ParameterTypes,
                 },
                 {
+                    path: 'FindMessageID',
+                    component: FindMessageID,
+                },
+                {
                     path: 'MessageEmbed',
                     component: MessageEmbed,
+                },
+                {
+                    path: 'ReactionRole',
+                    component: ReactionRole,
                 },
             ],
         },
@@ -43,12 +53,17 @@ export default new Router({
             component: FAQ,
         },
     ],
-    // eslint-disable-next-line
-    scrollBehavior(to /* , from, savedPosition */) {
+    scrollBehavior(to, from, savedPosition) {
         if (to.hash) {
             return {
                 selector: to.hash,
             };
         }
+
+        if (savedPosition) {
+            return savedPosition;
+        }
+
+        return false;
     },
 });

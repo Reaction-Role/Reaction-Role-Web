@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h1>Parameter Types</h1>
+        <h2>Parameter Types</h2>
 
         <hr>
 
-        <h3 id="String">String</h3>
+        <h4 id="String">String</h4>
 
         <p>
             Consist of a sequence of characters.
@@ -12,7 +12,7 @@
             you have to enclose it in quotes or else it will interpret it as mulitple strings
         </p>
 
-        <h3 id="Mention">Mention</h3>
+        <h4 id="Mention">Mention</h4>
 
         <p>
             Discord mentions, this can either be Channel mention or Role mention.
@@ -26,6 +26,17 @@
         <p>
             For role mentions, it can either be a Role pinged with <code>@</code>,
             or resolved with a Role name string
+        </p>
+
+        <h4 id="Emoji">Emoji</h4>
+
+        <p>
+            Discord stock or custom emoji
+        </p>
+
+        <p>
+            For custom emojis, make sure the format is
+            <code>&#x3C;:name:id&#x3E;</code> Ex: <code>&#x3C;:pink:452934410069868544&#x3E;</code>
         </p>
 
     </div>

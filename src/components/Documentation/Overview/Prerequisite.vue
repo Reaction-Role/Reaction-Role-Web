@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Prerequisite</h1>
+        <h2>Prerequisite</h2>
 
         <span>
             There are some things you should prepare

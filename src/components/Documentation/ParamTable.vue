@@ -1,5 +1,5 @@
 <template>
-    <table>
+    <table class="table is-hoverable">
             <thead>
                 <tr>
                     <th>Parameter</th>

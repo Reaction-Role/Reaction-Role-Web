@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Message Embed</h1>
+        <h2>Message Embed</h2>
 
         <p>
             Messasge embed is an optional feature, so it is not required for Reaction Role to work.
@@ -9,12 +9,13 @@
 
         <hr>
 
-        <h3>Regular vs Embedded Message</h3>
+        <h4>Regular vs Embedded Message</h4>
+        <img src="/static/img/regular.png" alt="Regular">
+        <img src="/static/img/embedded.png" alt="Embedded">
 
-        <img src="/static/img/regular.png" alt="Regular" class="image">
-        <img src="/static/img/color_picker.png" alt="Embedded" class="image">
+        <hr>
 
-        <h3 id="Create">Creating Embed</h3>
+        <h4 id="Create">Creating Embed</h4>
 
         <p>
             Creating an embed similar to the one above
@@ -54,7 +55,7 @@
                     desc="Whether to parse value as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
-        <h3 id="Edit">Edit Embed</h3>
+        <h4 id="Edit">Edit Embed</h4>
 
         <p>
             In cases where you wish to edit an embedded message
