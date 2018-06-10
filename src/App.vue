@@ -14,7 +14,7 @@
                             <span></span>
                         </button>
                     </div>
-                    <div class="navbar-menu">
+                    <div class="navbar-menu" :class="{'is-active': navMenuActive}">
                         <div class="navbar-start">
                             <router-link to="/Documentation" class="navbar-item">
                                 <b-icon icon="file-alt" pack="far"></b-icon>&nbsp;
