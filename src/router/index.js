@@ -9,6 +9,7 @@ import ParameterTypes from '@/components/Documentation/Overview/ParameterTypes';
 import FindMessageID from '@/components/Documentation/Overview/FindMessageID';
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
 import ReactionRole from '@/components/Documentation/Commands/ReactionRole';
+import GroupLock from '@/components/Documentation/Commands/GroupLock';
 
 import FAQ from '@/components/FAQ';
 
@@ -44,6 +45,10 @@ export default new Router({
                 {
                     path: 'ReactionRole',
                     component: ReactionRole,
+                },
+                {
+                    path: 'GroupLock',
+                    component: GroupLock,
                 },
             ],
         },

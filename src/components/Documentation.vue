@@ -70,6 +70,30 @@
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        <router-link to="/Documentation/GroupLock"
+                        exact-active-class="is-active">Group Lock (Patron Only)</router-link>
+                        <ul>
+                            <li>
+                                <router-link to="/Documentation/GroupLock#MessageLock"
+                                exact-active-class="is-active">
+                                    Message Lock
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/GroupLock#ReferenceIDLock"
+                                exact-active-class="is-active">
+                                    Reference ID Lock
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/GroupLock#ReleaseLock"
+                                exact-active-class="is-active">
+                                    Release Lock
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
         </div>
