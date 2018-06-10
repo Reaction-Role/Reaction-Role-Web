@@ -23,6 +23,6 @@
 
 <script>
 export default {
-    name: 'CopyID',
+    name: 'Find-Message-ID',
 };
 </script>

@@ -34,7 +34,7 @@
         </p>
 
         <p>
-            Example Command: <code>fetchmessage #Channel MessageID</code>
+            Example Command: <code>>fetchmessage #Channel MessageID</code>
         </p>
 
         <ParamTable>
@@ -60,7 +60,7 @@
         </p>
 
         <p>
-            Example Command: <code>fetchlock #Channel MessageID</code>
+            Example Command: <code>>fetchlock #Channel MessageID</code>
         </p>
 
         <ParamTable>

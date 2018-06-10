@@ -26,7 +26,7 @@
         </div>
 
         <p>
-            Example Command: <code>lockmessage #Channel MessageID</code>
+            Example Command: <code>>lockmessage #Channel MessageID</code>
         </p>
 
         <ParamTable>
@@ -54,7 +54,7 @@
         </p>
 
         <p>
-            Example Command: <code>createlock ReferenceID...</code>
+            Example Command: <code>>createlock ReferenceID...</code>
         </p>
 
         <ParamTable>
@@ -72,6 +72,10 @@
 
         <p>
             Releasing the lock to allow more than one role to be selected
+        </p>
+
+        <p>
+            Example Command: <code>>releaselock ReferenceID</code>
         </p>
 
         <ParamTable>

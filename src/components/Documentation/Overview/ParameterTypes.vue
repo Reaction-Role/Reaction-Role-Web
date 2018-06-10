@@ -38,7 +38,7 @@
         </p>
 
         <p>
-            For custom emojis, make sure the format is
+            For <b>custom</b> emojis, make sure the format is
             <code>&#x3C;:name:id&#x3E;</code> Ex: <code>&#x3C;:pink:452934410069868544&#x3E;</code>
         </p>
 
