@@ -1,5 +1,5 @@
 <template>
-    <div id="reaction-role-container" class="columns is-vcentered">
+    <div id="reaction-role-container" class="columns is-vcentered animated fadeInDown">
         <div class="column is-offset-2">
             <article class="media is-centered is-vcentered">
                 <figure class="media-left">

@@ -12,6 +12,8 @@ import faSolid from '@fortawesome/fontawesome-free-solid';
 import faRegular from '@fortawesome/fontawesome-free-regular';
 import faBrands from '@fortawesome/fontawesome-free-brands';
 
+import 'animate.css/animate.min.css';
+
 import App from './App';
 import router from './router';
 

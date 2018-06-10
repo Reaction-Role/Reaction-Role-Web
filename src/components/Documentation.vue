@@ -1,5 +1,5 @@
 <template>
-    <div class="columns">
+    <div class="columns animated fadeIn">
         <div class="column is-3">
             <h1 class="title">Documentation</h1>
             <nav aria-label="breadcrumbs" class="breadcrumb">
@@ -47,7 +47,7 @@
         <div class="column">
             <div class="box">
                 <div class="content">
-                    <keep-alive><router-view></router-view></keep-alive>
+                    <keep-alive><router-view class="animated fadeIn"></router-view></keep-alive>
                 </div>
             </div>
         </div>
