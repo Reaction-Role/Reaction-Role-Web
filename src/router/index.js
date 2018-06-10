@@ -5,6 +5,7 @@ import Home from '@/components/Home';
 
 import Documentation from '@/components/Documentation';
 import Prerequisite from '@/components/Documentation/Overview/Prerequisite';
+import ParameterTypes from '@/components/Documentation/Overview/ParameterTypes';
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
 
 import FAQ from '@/components/FAQ';
@@ -25,6 +26,10 @@ export default new Router({
                 {
                     path: '',
                     component: Prerequisite,
+                },
+                {
+                    path: 'ParameterTypes',
+                    component: ParameterTypes,
                 },
                 {
                     path: 'MessageEmbed',

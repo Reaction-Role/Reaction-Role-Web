@@ -21,6 +21,10 @@
                         <router-link to="/Documentation"
                         exact-active-class="is-active">Prerequisite</router-link>
                     </li>
+                    <li>
+                        <router-link to="/Documentation/ParameterTypes"
+                        exact-active-class="is-active">Parameter Types</router-link>
+                    </li>
                 </ul>
                 <p class="menu-label">
                     Commands

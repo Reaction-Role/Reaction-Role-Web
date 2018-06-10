@@ -24,28 +24,28 @@
                 <ParamRow
                     name="#Channel"
                     type="Mention"
-                    typeRef="/"
+                    typeRef="/Documentation/ParameterTypes#Mention"
                     desc="The channel to send the embedded message in." />
                 <ParamRow
                     name="Color"
                     type="String"
-                    typeRef="/"
+                    typeRef="/Documentation/ParameterTypes#String"
                     desc="The left border color of the embedded message in
                     hex value (with #) or a CSS color keyword" />
                 <ParamRow
                     name="Title"
                     type="String"
-                    typeRef="/"
+                    typeRef="/Documentation/ParameterTypes#String"
                     desc="The title of the embedded" />
                 <ParamRow
                     name="Body"
                     type="String"
-                    typeRef="/"
+                    typeRef="/Documentation/ParameterTypes#String"
                     desc="The body or description of the embedded" />
                 <ParamRow
                     name="B64"
                     type="String"
-                    typeRef="/"
+                    typeRef="/Documentation/ParameterTypes#String"
                     opt
                     desc="Whether to parse value as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
