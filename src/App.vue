@@ -16,7 +16,7 @@
                     </div>
                     <div class="navbar-menu">
                         <div class="navbar-start">
-                            <router-link to="/documentation" class="navbar-item">
+                            <router-link to="/Documentation" class="navbar-item">
                                 <b-icon icon="file-alt" pack="far"></b-icon>&nbsp;
                                 <span>Documentation</span>
                             </router-link>

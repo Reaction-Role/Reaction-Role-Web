@@ -19,7 +19,7 @@
                             <b-icon icon="robot"></b-icon>
                             <span>Invite To Server</span>
                         </button>
-                        <router-link to="/documentation"
+                        <router-link to="/Documentation"
                         class="button is-large is-outlined is-dark">
                             <b-icon icon="file-alt" pack="far"></b-icon>
                             <span>View Docs</span>
