@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Message Embed</h2>
+        <h2>
+            <b-icon icon="comment" pack="far"></b-icon>
+            <span>Message Embed</span>
+        </h2>
 
         <p>
             Messasge embed is an optional feature, so it is not required for Reaction Role to work.
@@ -15,7 +18,10 @@
 
         <hr>
 
-        <h4 id="Create">Creating Embed</h4>
+        <h4 id="Create">
+            <b-icon icon="plus"></b-icon>
+            <span>Creating Embed</span>
+        </h4>
 
         <p>
             Creating an embed similar to the one above
@@ -55,7 +61,10 @@
                     desc="Whether to parse value as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
-        <h4 id="Edit">Edit Embed</h4>
+        <h4 id="Edit">
+            <b-icon icon="edit" pack="far"></b-icon>
+            <span>Edit Embed</span>
+        </h4>
 
         <p>
             In cases where you wish to edit an embedded message

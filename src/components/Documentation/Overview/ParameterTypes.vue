@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Parameter Types</h2>
+        <h2>
+            <b-icon icon="clone" pack="far"></b-icon>
+            <span>Parameter Types</span>
+        </h2>
 
         <hr>
 

@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Utilities</h2>
+        <h2>
+            <b-icon icon="toolbox"></b-icon>
+            <span>Utilities</span>
+        </h2>
 
         <p>
             A collection of utility functions
@@ -8,7 +11,10 @@
 
         <hr>
 
-        <h4 id="Help">Help</h4>
+        <h4 id="Help">
+            <b-icon icon="info"></b-icon>
+            <span>Help</span>
+        </h4>
 
         <p>
             Prints the link to the documentation
@@ -18,7 +24,10 @@
             Command: <code>>help</code>
         </p>
 
-        <h4 id="FetchMessage">Fetch Message Reaction Roles</h4>
+        <h4 id="FetchMessage">
+            <b-icon icon="search"></b-icon>
+            <span>Fetch Message Reaction Roles</span>
+        </h4>
 
         <p>
             Fetches all reaction roles on a message
@@ -41,7 +50,10 @@
                 desc="The message ID of the message to fetch for" />
         </ParamTable>
 
-        <h4 id="FetchLock">Fetch Message Locks</h4>
+        <h4 id="FetchLock">
+            <b-icon icon="search"></b-icon>
+            <span>Fetch Message Locks</span>
+        </h4>
 
         <p>
             Fetches all locks on a message

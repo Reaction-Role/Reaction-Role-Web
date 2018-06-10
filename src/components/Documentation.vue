@@ -45,84 +45,107 @@
                 <ul class="menu-list">
                     <li>
                         <router-link to="/Documentation/MessageEmbed"
-                        exact-active-class="is-active">Message Embed</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="comment" pack="far"></b-icon>
+                            <span>Message Embed</span>
+                        </router-link>
                         <ul>
                             <li>
                                 <router-link to="/Documentation/MessageEmbed#Create"
                                 exact-active-class="is-active">
-                                    Create Embed
+                                    <b-icon icon="plus"></b-icon>
+                                    <span>Create Embed</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/MessageEmbed#Edit"
                                 exact-active-class="is-active">
-                                    Edit Embed
+                                    <b-icon icon="edit" pack="far"></b-icon>
+                                    <span>Edit Embed</span>
                                 </router-link>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <router-link to="/Documentation/ReactionRole"
-                        exact-active-class="is-active">Reaction Role</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="react" pack="fab"></b-icon>
+                            <span>Reaction Role</span>
+                        </router-link>
                         <ul>
                             <li>
                                 <router-link to="/Documentation/ReactionRole#Create"
                                 exact-active-class="is-active">
-                                    Create Reaction Role
+                                    <b-icon icon="plus"></b-icon>
+                                    <span>Create Reaction Role</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/ReactionRole#Delete"
                                 exact-active-class="is-active">
-                                    Delete Reaction Role
+                                    <b-icon icon="trash-alt" pack="far"></b-icon>
+                                    <span>Delete Reaction Role</span>
                                 </router-link>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <router-link to="/Documentation/GroupLock"
-                        exact-active-class="is-active">Group Lock (Patron Only)</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="lock"></b-icon>
+                            <span>Group Lock</span>
+                            <b-tag type="is-success">Patron Only</b-tag>
+                        </router-link>
                         <ul>
                             <li>
                                 <router-link to="/Documentation/GroupLock#MessageLock"
                                 exact-active-class="is-active">
-                                    Message Lock
+                                    <b-icon icon="comment" pack="far"></b-icon>
+                                    <span>Message Lock</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/GroupLock#ReferenceIDLock"
                                 exact-active-class="is-active">
-                                    Reference ID Lock
+                                    <b-icon icon="id-badge" pack="far"></b-icon>
+                                    <span>Reference ID Lock</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/GroupLock#ReleaseLock"
                                 exact-active-class="is-active">
-                                    Release Lock
+                                    <b-icon icon="unlock"></b-icon>
+                                    <span>Release Lock</span>
                                 </router-link>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <router-link to="/Documentation/Utilities"
-                        exact-active-class="is-active">Utilities</router-link>
+                        exact-active-class="is-active">
+                            <b-icon icon="toolbox"></b-icon>
+                            <span>Utilities</span>
+                        </router-link>
                         <ul>
                             <li>
                                 <router-link to="/Documentation/Utilities#Help"
                                 exact-active-class="is-active">
-                                    Help
+                                    <b-icon icon="info"></b-icon>
+                                    <span>Help</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/Utilities#FetchMessage"
                                 exact-active-class="is-active">
-                                    Fetch Message Reaction Roles
+                                    <b-icon icon="search"></b-icon>
+                                    <span>Fetch Message Reaction Roles</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/Documentation/Utilities#FetchLock"
                                 exact-active-class="is-active">
-                                    Fetch Message Locks
+                                    <b-icon icon="search"></b-icon>
+                                    <span>Fetch Message Locks</span>
                                 </router-link>
                             </li>
                         </ul>
@@ -150,11 +173,7 @@ export default {
 tr > td:nth-child(3) {
     text-align: center;
 }
-</style>
-
-<style scoped>
 span.icon {
     vertical-align: middle;
 }
 </style>
-

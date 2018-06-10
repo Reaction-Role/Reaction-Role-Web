@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Prerequisite</h2>
+        <h2>
+            <b-icon icon="list-ul"></b-icon>
+            <span>Prerequisite</span>
+        </h2>
 
         <span>
             There are some things you should prepare

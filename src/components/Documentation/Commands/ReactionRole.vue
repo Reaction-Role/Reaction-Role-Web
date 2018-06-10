@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Reaction Role</h2>
+        <h2>
+            <b-icon icon="react" pack="fab"></b-icon>
+            <span>Reaction Role</span>
+        </h2>
 
         <p>
             Assign roles by reacting to emojis
@@ -8,7 +11,10 @@
 
         <hr>
 
-        <h4 id="Create">Create Reaction Role</h4>
+        <h4 id="Create">
+            <b-icon icon="plus"></b-icon>
+            <span>Create Reaction Role</span>
+        </h4>
 
         <p>
             Example Command: <code>addrole #Channel MessageID :Emoji: @Role</code>
@@ -48,14 +54,20 @@
                     desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
-        <h4 id="Delete">Delete Reaction Role</h4>
+        <h4 id="Delete">
+            <b-icon icon="trash-alt" pack="far"></b-icon>
+            <span>Delete Reaction Role</span>
+        </h4>
 
         <p>
             There are a few ways to delete Reaction Roles,
             however the first option is the best to avoid any conflict
         </p>
 
-        <h5>Deletion via ID</h5>
+        <h5 id="deleteviaid">
+            <b-icon icon="id-badge" pack="far"></b-icon>
+            <span>Deletion via ID</span>
+        </h5>
 
         <img src="/static/img/reference_id.png" alt="Reference ID">
 
@@ -73,7 +85,10 @@
                 desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
-        <h5>Deletion via message delete</h5>
+        <h5 id="deleteviamessagedelete">
+            <b-icon icon="comment" pack="far"></b-icon>
+            <span>Deletion via message delete</span>
+        </h5>
 
         <p>
             You can also delete the message itself that the Reaction Role is on

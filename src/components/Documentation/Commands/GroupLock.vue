@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Group Lock</h2>
+        <h2>
+            <b-icon icon="lock"></b-icon>
+            <span>Group Lock</span>
+        </h2>
 
         <p>
             Restricts users to only one role within a selection group at a time
@@ -12,7 +15,10 @@
 
         <hr>
 
-        <h4 id="MessageLock">Message Lock</h4>
+        <h4 id="MessageLock">
+            <b-icon icon="comment" pack="far"></b-icon>
+            <span>Message Lock</span>
+        </h4>
 
         <div class="notification is-primary">
             In order to lock additional ones on the same message,
@@ -36,7 +42,10 @@
                 desc="The message ID of the message to lock" />
         </ParamTable>
 
-        <h4 id="ReferenceIDLock">Reference ID Lock</h4>
+        <h4 id="ReferenceIDLock">
+            <b-icon icon="id-badge" pack="far"></b-icon>
+            <span>Reference ID Lock</span>
+        </h4>
 
         <p>
             This commands consumes Reference IDs and chain and lock them together.
@@ -55,8 +64,11 @@
                 typeRef="/Documentation/ParameterTypes#String"
                 desc="Reference IDs to chain and lock together, each one separated by a space" />
         </ParamTable>
-        
-        <h4 id="ReleaseLock">Release Lock</h4>
+
+        <h4 id="ReleaseLock">
+            <b-icon icon="unlock"></b-icon>
+            <span>Release Lock</span>
+        </h4>
 
         <p>
             Releasing the lock to allow more than one role to be selected
