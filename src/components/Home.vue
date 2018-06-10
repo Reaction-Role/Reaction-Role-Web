@@ -1,5 +1,5 @@
 <template>
-    <div class="columns is-vcentered" style="margin-top:5%">
+    <div id="reaction-role-container" class="columns is-vcentered">
         <div class="column is-offset-2">
             <article class="media is-centered is-vcentered">
                 <figure class="media-left">
@@ -41,6 +41,9 @@ export default {
 .reaction-role {
     -webkit-animation: mover 1.5s infinite alternate;
     animation: mover 1.5s infinite alternate;
+}
+#reaction-role-container {
+    margin-top: 10%;
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
