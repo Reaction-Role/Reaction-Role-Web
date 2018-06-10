@@ -25,8 +25,7 @@
 
         <p>
             For role mentions, it can either be a Role pinged with <code>@</code>,
-            or resolved with a Role name
-            <router-link to="/Documentation/ParameterTypes#String">String</router-link>
+            or resolved with a Role name string
         </p>
 
     </div>
