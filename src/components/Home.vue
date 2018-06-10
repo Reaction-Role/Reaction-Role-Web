@@ -14,7 +14,7 @@
                     <span>Invite To Server</span>
                 </button>
                 <button class="button is-large is-outlined is-dark">
-                    <b-icon icon="file-alt"></b-icon>
+                    <b-icon icon="file-alt" pack="far"></b-icon>
                     <span>View Docs</span>
                 </button>
             </div>

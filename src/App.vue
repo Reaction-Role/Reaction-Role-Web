@@ -7,6 +7,37 @@
                         <router-link to="/" class="navbar-item">
                             <img src="/static/favicon/favicon.png">
                         </router-link>
+                        <button class="button navbar-burger"
+                            @click="navMenuActive = !navMenuActive">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="navbar-menu">
+                        <div class="navbar-start">
+                            <router-link to="/docs" class="navbar-item">
+                                <b-icon icon="file-alt" pack="far"></b-icon>&nbsp;
+                                <span>Documentation</span>
+                            </router-link>
+                            <router-link to="/faq" class="navbar-item">
+                                <b-icon icon="question-circle" pack="far"></b-icon>&nbsp;
+                                <span>FAQ</span>
+                            </router-link>
+                        </div>
+                        <div class="navbar-end">
+                            <a href="https://discordbots.org/bot/441751906428256277/vote" class="navbar-item" target="_blank">
+                                <b-icon icon="chevron-up"></b-icon>&nbsp;
+                                <span>Vote</span>
+                            </a>
+                            <a href="https://discord.gg/TZ4BsrQ" class="navbar-item" target="_blank">
+                                <b-icon icon="discord" pack="fab"></b-icon>&nbsp;
+                                <span>Support Server</span>
+                            </a>
+                            <a href="https://www.patreon.com/RumbleFrog" class="navbar-item patreon-button" target="_blank">
+                                <img src="/static/img/become_a_patron_button@2x.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -16,12 +47,22 @@
                 <router-view></router-view>
             </div>
         </div>
+        <div class="hero-footer">
+            <footer class="container footer content has-text-centered">
+                Constructed and curated by Fishy!#6593
+            </footer>
+        </div>
     </section>
 </template>
 
 <script>
 export default {
     name: 'Reaction-Role',
+    data() {
+        return {
+            navMenuActive: false,
+        };
+    },
 };
 </script>
 
