@@ -34,11 +34,11 @@
         <h4 id="Emoji">Emoji</h4>
 
         <p>
-            Discord stock or custom emoji
+            Discord stock, custom or external emoji
         </p>
 
         <p>
-            For <b>custom</b> emojis, make sure the format is
+            For <b>external</b> emojis, make sure the format is
             <code>&#x3C;:name:id&#x3E;</code> Ex: <code>&#x3C;:pink:452934410069868544&#x3E;</code>
         </p>
 

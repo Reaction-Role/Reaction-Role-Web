@@ -12,7 +12,7 @@ import ReactionRole from '@/components/Documentation/Commands/ReactionRole';
 import GroupLock from '@/components/Documentation/Commands/GroupLock';
 import Utilities from '@/components/Documentation/Commands/Utilities';
 
-import FAQ from '@/components/FAQ';
+import FAQ from '@/components/FAQ/FAQ';
 
 Vue.use(Router);
 
