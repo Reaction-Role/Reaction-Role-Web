@@ -20,7 +20,7 @@ deploy:
   local-dir: dist
   fqdn: reaction-role.com
   repo: Reaction-Role/reaction-role.github.io
-
+  target-branch: master
 after_success:
   - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
