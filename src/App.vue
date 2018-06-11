@@ -20,6 +20,10 @@
                                 <b-icon icon="file-alt" pack="far"></b-icon>&nbsp;
                                 <span>Documentation</span>
                             </router-link>
+                            <router-link to="/Videos" class="navbar-item">
+                                <b-icon icon="play-circle" pack="far"></b-icon>&nbsp;
+                                <span>Videos</span>
+                            </router-link>
                             <router-link to="/FAQ" class="navbar-item">
                                 <b-icon icon="question-circle" pack="far"></b-icon>&nbsp;
                                 <span>FAQ</span>
