@@ -90,7 +90,7 @@
                 type="String"
                 typeRef="/Documentation/ParameterTypes#String"
                 desc="Part of the embedded message to edit
-                (Color, Title, Body, Patron Only: Image)" /> <!-- TODO: FIX THUMBNAIL -->
+                (Color, Title, Body, Patron Only: Image, Thumbnail)" />
             <ParamRow
                 name="NewValue"
                 type="String"
