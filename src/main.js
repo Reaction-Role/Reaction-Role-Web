@@ -2,6 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 
+import VueAnalytics from 'vue-analytics';
+
 import Raven from 'raven-js';
 import RavenVue from 'raven-js/plugins/vue';
 
@@ -31,6 +33,11 @@ Vue.use(Buefy, {
 fontAwesome.library.add(faSolid);
 fontAwesome.library.add(faRegular);
 fontAwesome.library.add(faBrands);
+
+Vue.use(VueAnalytics, {
+    id: 'UA-68577666-6',
+    router,
+});
 
 /* eslint-disable no-new */
 new Vue({

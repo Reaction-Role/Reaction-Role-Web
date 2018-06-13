@@ -23,6 +23,7 @@
     "buefy": "^0.6.6",
     "raven-js": "^3.26.1",
     "vue": "^2.5.2",
+    "vue-analytics": "^5.12.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
