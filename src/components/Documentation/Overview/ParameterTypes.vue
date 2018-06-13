@@ -12,7 +12,8 @@
         <p>
             Consist of a sequence of characters.
             If it were to have a space,
-            you have to enclose it in single/double quotes or else it will interpret it as mulitple strings
+            you have to enclose it in single/double quotes
+            or else it will interpret it as mulitple strings
         </p>
 
         <h4 id="Mention">Mention</h4>

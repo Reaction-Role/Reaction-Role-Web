@@ -13,22 +13,32 @@
         <hr>
 
         <div class="field">
-            <b-checkbox value="true">Ensure the bot is in the server. Duh.</b-checkbox>
+            <b-checkbox value="true"></b-checkbox>
+            <span class="selectable-checkbox-text">
+                Ensure the bot is in the server. Duh.
+            </span>
         </div>
 
         <div class="field">
-            <b-checkbox>Ensure all emojis are uploaded and all roles are created</b-checkbox>
+            <b-checkbox></b-checkbox>
+            <span class="selectable-checkbox-text">
+                Ensure all emojis are uploaded and all roles are created
+            </span>
         </div>
 
         <div class="field">
-            <b-checkbox>Ensure <code>Reaction Role</code> role is above the roles</b-checkbox>
+            <b-checkbox></b-checkbox>
+            <span class="selectable-checkbox-text">
+                Ensure <code>Reaction Role</code> role is above the roles
+            </span>
         </div>
 
         <div class="field">
-            <b-checkbox>
+            <b-checkbox></b-checkbox>
+            <span class="selectable-checkbox-text">
                 Ensure Reaction Role has
                 <code>Embed Link</code> permission on the channels you are sending/pointing at
-            </b-checkbox>
+            </span>
         </div>
     </div>
 </template>
@@ -39,4 +49,12 @@ export default {
     name: 'Prerequisite',
 };
 </script>
+
+<style scoped>
+.selectable-checkbox-text {
+    vertical-align: text-top;
+    line-height: 110%;
+}
+</style>
+
 
