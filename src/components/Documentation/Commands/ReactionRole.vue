@@ -35,12 +35,12 @@
                     name=":Emoji:"
                     type="Emoji"
                     typeRef="/Documentation/ParameterTypes#Emoji"
-                    desc="The title of the embedded" />
+                    desc="The emoji to use as the reaction emoji" />
                 <ParamRow
                     name="@Role"
                     type="Mention/String"
                     typeRef="/Documentation/ParameterTypes#Mention"
-                    desc="The emoji to use as the reaction emoji, be it stock or custom" />
+                    desc="The role to assign on reaction" />
         </ParamTable>
 
         <h4 id="Delete">
