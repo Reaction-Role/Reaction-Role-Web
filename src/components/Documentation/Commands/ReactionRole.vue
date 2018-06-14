@@ -37,21 +37,10 @@
                     typeRef="/Documentation/ParameterTypes#Emoji"
                     desc="The title of the embedded" />
                 <ParamRow
-                    name="Body"
-                    type="String"
-                    typeRef="/Documentation/ParameterTypes#String"
-                    desc="The emoji to use as the reaction emoji, be it stock or custom" />
-                <ParamRow
                     name="@Role"
                     type="Mention/String"
                     typeRef="/Documentation/ParameterTypes#Mention"
                     desc="The emoji to use as the reaction emoji, be it stock or custom" />
-                <ParamRow
-                    name="B64"
-                    type="String"
-                    typeRef="/Documentation/ParameterTypes#String"
-                    opt
-                    desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
         <h4 id="Delete">
