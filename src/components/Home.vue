@@ -15,10 +15,11 @@
                         Users may join/leave roles just by reacting.
                     </h2>
                     <div id="action_buttons">
-                        <button class="button is-info is-large">
+                        <a href="https://discordapp.com/oauth2/authorize?client_id=441751906428256277&permissions=268790849&scope=bot"
+                        target="_blank" class="button is-info is-large">
                             <b-icon icon="robot"></b-icon>
                             <span>Invite To Server</span>
-                        </button>
+                        </a>
                         <router-link to="/Documentation"
                         class="button is-large is-outlined is-dark">
                             <b-icon icon="file-alt" pack="far"></b-icon>
