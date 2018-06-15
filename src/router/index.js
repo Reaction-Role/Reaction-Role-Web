@@ -16,6 +16,8 @@ import Videos from '@/components/Videos/Videos';
 
 import FAQ from '@/components/FAQ/FAQ';
 
+import Statistics from '@/components/Misc/Statistics';
+
 Vue.use(Router);
 
 export default new Router({
@@ -68,6 +70,11 @@ export default new Router({
             path: '/FAQ',
             name: 'FAQ',
             component: FAQ,
+        },
+        {
+            path: '/Statistics',
+            name: 'Statistics',
+            component: Statistics,
         },
     ],
     scrollBehavior(to, from, savedPosition) {
