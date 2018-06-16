@@ -4,7 +4,11 @@
             If you meet the limit,
             you may see something like For cache performance purposes,
             only patrons & supporters are allowed more than X messages
-            with reaction-role per guild.
+            with reaction-role per guild. Also, if you recently deleted
+            a message that contains Reaction Roles, you will need to
+            wait for a garbage collector to delete it and this occurs
+            every 5 hours. The proper way to avoid this is to use the
+            deletion command instead.
         </Message>
 
         <Message title="Why's this restriction in place?">
