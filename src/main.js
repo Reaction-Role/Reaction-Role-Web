@@ -16,6 +16,8 @@ import faBrands from '@fortawesome/fontawesome-free-brands';
 
 import 'animate.css/animate.min.css';
 
+import Trend from 'vuetrend';
+
 import App from './App';
 import router from './router';
 
@@ -29,6 +31,8 @@ Raven
 Vue.use(Buefy, {
     defaultIconPack: 'fas',
 });
+
+Vue.use(Trend);
 
 fontAwesome.library.add(faSolid);
 fontAwesome.library.add(faRegular);

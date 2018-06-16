@@ -28,17 +28,17 @@
                                 <b-icon icon="question-circle" pack="far"></b-icon>&nbsp;
                                 <span>FAQ</span>
                             </router-link>
-                            <!-- <div class="navbar-item has-dropdown is-hoverable">
+                            <div class="navbar-item has-dropdown is-hoverable">
                                 <div class="navbar-link">
                                     <span>Misc</span>
                                 </div>
                                 <div class="navbar-dropdown">
-                                    <router-link to="/Misc/Statistics" class="navbar-item">
+                                    <router-link to="/Trends" class="navbar-item">
                                         <b-icon icon="chart-bar" pack="far"></b-icon>&nbsp;
-                                        <span>Statistics</span>
+                                        <span>Meaningless Trends</span>
                                     </router-link>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="navbar-end">
                             <a href="https://discordbots.org/bot/441751906428256277/vote" class="navbar-item" target="_blank">

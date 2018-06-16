@@ -16,7 +16,7 @@ import Videos from '@/components/Videos/Videos';
 
 import FAQ from '@/components/FAQ/FAQ';
 
-import Statistics from '@/components/Misc/Statistics';
+import Trends from '@/components/Misc/Trends';
 
 Vue.use(Router);
 
@@ -72,9 +72,9 @@ export default new Router({
             component: FAQ,
         },
         {
-            path: '/Statistics',
-            name: 'Statistics',
-            component: Statistics,
+            path: '/Trends',
+            name: 'Trends',
+            component: Trends,
         },
     ],
     scrollBehavior(to, from, savedPosition) {
