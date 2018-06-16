@@ -59,7 +59,7 @@
         </div>
         <div class="hero-body">
             <div class="container">
-                <router-view></router-view>
+                <keep-alive><router-view></router-view></keep-alive>
             </div>
         </div>
         <div class="hero-footer">
