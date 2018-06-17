@@ -37,7 +37,8 @@
             <b-checkbox></b-checkbox>
             <span class="selectable-checkbox-text">
                 Ensure Reaction Role has
-                <code>Embed Link</code> permission on the channels you are sending/pointing at
+                <code>Embed Link</code> permission on <b>BOTH</b> the channel you
+                are typing the command in <b>AND</b> the channel you are pointing at
             </span>
         </div>
     </div>
