@@ -17,6 +17,7 @@ import Videos from '@/components/Videos/Videos';
 import FAQ from '@/components/FAQ/FAQ';
 
 import Trends from '@/components/Misc/Trends';
+import Emojis from '@/components/Misc/Emojis';
 
 Vue.use(Router);
 
@@ -75,6 +76,11 @@ export default new Router({
             path: '/Trends',
             name: 'Trends',
             component: Trends,
+        },
+        {
+            path: '/Emojis',
+            name: 'Emojis',
+            component: Emojis,
         },
     ],
     scrollBehavior(to, from, savedPosition) {
