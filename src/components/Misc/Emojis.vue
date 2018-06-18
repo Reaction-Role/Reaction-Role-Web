@@ -139,7 +139,7 @@ export default {
             return this.fuse.search(this.search);
         },
         formatIdentifier(row) {
-            return btoa(`<${row.animated ? 'a:' : ''}${row.identifier}>`);
+            return btoa(`<${row.animated ? 'a:' : ':'}${row.identifier}>`);
         },
         exportEmojis() {
             this.exports.forEach((e) => {
