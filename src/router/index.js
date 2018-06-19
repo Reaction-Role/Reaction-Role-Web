@@ -4,7 +4,7 @@ import Router from 'vue-router';
 import Home from '@/components/Home';
 
 import Documentation from '@/components/Documentation/Documentation';
-import Prerequisite from '@/components/Documentation/Overview/Prerequisite';
+import Quickstart from '@/components/Documentation/Overview/Quickstart';
 import ParameterTypes from '@/components/Documentation/Overview/ParameterTypes';
 import FindMessageID from '@/components/Documentation/Overview/FindMessageID';
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
@@ -34,7 +34,7 @@ export default new Router({
             children: [
                 {
                     path: '',
-                    component: Prerequisite,
+                    component: Quickstart,
                 },
                 {
                     path: 'ParameterTypes',

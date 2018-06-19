@@ -20,8 +20,8 @@
                     <li>
                         <router-link to="/Documentation"
                         exact-active-class="is-active">
-                            <b-icon icon="list-ul"></b-icon>
-                            <span>Prerequisite</span>
+                            <b-icon icon="paper-plane" pack="far"></b-icon>
+                            <span>Quickstart</span>
                         </router-link>
                     </li>
                     <li>
