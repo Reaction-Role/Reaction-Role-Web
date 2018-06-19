@@ -87,7 +87,8 @@
             <router-link to="/Videos">
                 videos
             </router-link>
-            we have. If you are even confused after that, feel free to join our server at the top <b>after</b> reading everything 
+            we have. If you are even confused after that, feel free to join
+            our server at the top <b>after</b> reading everything
         </p>
 
     </div>
