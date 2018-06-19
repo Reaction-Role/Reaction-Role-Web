@@ -54,7 +54,7 @@
                 <span>Setup a message in which your user will react to by either</span>
                 <ol type="a" class="alpha-list">
                     <li>Type your own message</li>
-                    <li>Use
+                    <li class="mb1em">Use
                         <router-link to="/Documentation/MessageEmbed">
                             MessageEmbed
                         </router-link>
@@ -62,7 +62,7 @@
                     </li>
                 </ol>
             </li>
-            <li>Using
+            <li class="mb1em">Using
                 <router-link to="/Documentation/ReactionRole">
                     ReactionRole
                 </router-link>
@@ -106,5 +106,8 @@ export default {
 }
 .alpha-list {
     list-style-type: lower-alpha;
+}
+.mb1em {
+    margin-bottom: 1em;
 }
 </style>
