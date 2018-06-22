@@ -43,7 +43,7 @@
         </Message>
 
         <Message title="I have a suggestion!">
-            That's great! You can join the Support Server to discuss your idea
+            That's great! You can join our server to discuss your idea
         </Message>
     </div>
 </template>
