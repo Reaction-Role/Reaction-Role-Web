@@ -4,7 +4,7 @@ import Router from 'vue-router';
 import Home from '@/components/Home';
 
 import Documentation from '@/components/Documentation/Documentation';
-import Prerequisite from '@/components/Documentation/Overview/Prerequisite';
+import Quickstart from '@/components/Documentation/Overview/Quickstart';
 import ParameterTypes from '@/components/Documentation/Overview/ParameterTypes';
 import FindMessageID from '@/components/Documentation/Overview/FindMessageID';
 import MessageEmbed from '@/components/Documentation/Commands/MessageEmbed';
@@ -17,6 +17,7 @@ import Videos from '@/components/Videos/Videos';
 import FAQ from '@/components/FAQ/FAQ';
 
 import Trends from '@/components/Misc/Trends';
+import Emojis from '@/components/Misc/Emojis';
 
 Vue.use(Router);
 
@@ -33,7 +34,7 @@ export default new Router({
             children: [
                 {
                     path: '',
-                    component: Prerequisite,
+                    component: Quickstart,
                 },
                 {
                     path: 'ParameterTypes',
@@ -75,6 +76,11 @@ export default new Router({
             path: '/Trends',
             name: 'Trends',
             component: Trends,
+        },
+        {
+            path: '/Emojis',
+            name: 'Emojis',
+            component: Emojis,
         },
     ],
     scrollBehavior(to, from, savedPosition) {

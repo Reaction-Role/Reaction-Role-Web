@@ -37,6 +37,10 @@
                                         <b-icon icon="chart-bar" pack="far"></b-icon>&nbsp;
                                         <span>Meaningless Trends</span>
                                     </router-link>
+                                    <router-link to="/Emojis" class="navbar-item">
+                                        <b-icon icon="gem" pack="far"></b-icon>&nbsp;
+                                        <span>Global Emojis</span>
+                                    </router-link>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +51,7 @@
                             </a>
                             <a href="https://discord.gg/TZ4BsrQ" class="navbar-item" target="_blank">
                                 <b-icon icon="discord" pack="fab"></b-icon>&nbsp;
-                                <span>Support Server</span>
+                                <span>Our Server</span>
                             </a>
                             <a href="https://www.patreon.com/RumbleFrog" class="navbar-item patreon-button" target="_blank">
                                 <img src="/static/img/become_a_patron_button@2x.png">
