@@ -54,7 +54,7 @@
                                 <span>Our Server</span>
                             </a>
                             <a href="https://www.patreon.com/RumbleFrog" class="navbar-item patreon-button" target="_blank">
-                                <img src="/static/img/become_a_patron_button@2x.png">
+                                <img src="/static/img/become_a_patron_button.png">
                             </a>
                         </div>
                     </div>
