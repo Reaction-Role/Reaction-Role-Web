@@ -17,13 +17,13 @@
                     <div id="action_buttons">
                         <a id="invite_btn"
                         href="https://discordapp.com/oauth2/authorize?client_id=441751906428256277&permissions=268790849&scope=bot"
-                        target="_blank" class="button is-info is-large">
+                        target="_blank" class="button is-blurple is-large">
                             <b-icon icon="robot"></b-icon>
                             <span>Invite To Server</span>
                         </a>
                         <router-link id="doc_btn"
                         to="/Documentation"
-                        class="button is-large is-outlined is-dark">
+                        class="button is-large is-outlined is-black is-inverted">
                             <b-icon icon="file-alt" pack="far"></b-icon>
                             <span>View Docs</span>
                         </router-link>

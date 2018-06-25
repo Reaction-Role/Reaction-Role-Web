@@ -4,7 +4,7 @@
             <b-input v-model="search" placeholder="Search..." icon="search"></b-input>
 
             <div class="control is-flex">
-                <b-switch v-model="animatedOnly">Animated Only</b-switch>
+                <b-switch v-model="animatedOnly" type="is-blurple">Animated Only</b-switch>
             </div>
 
             <div class="control">
@@ -24,6 +24,7 @@
             :checked-rows.sync="exports"
             checkable
             hoverable
+            mobile-cards
             >
 
             <template slot-scope="props" slot="header">
@@ -33,15 +34,15 @@
             </template>
 
             <template slot-scope="props">
-                <b-table-column field="name" label="Name" sortable>
+                <b-table-column field="name" label="Name" meta="" sortable>
                     {{ props.row.name }}
                 </b-table-column>
 
-                <b-table-column field="url" label="Emoij">
+                <b-table-column field="url" label="Emoij" meta="">
                     <img class="image is-48x48" :src="props.row.url">
                 </b-table-column>
 
-                <b-table-column field="animated" label="Animated">
+                <b-table-column field="animated" label="Animated" meta="">
                     <b-tag
                     :type="props.row.animated ? 'is-success' : 'is-danger'">
                         {{ props.row.animated ? 'Yes' : 'No' }}

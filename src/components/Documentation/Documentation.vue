@@ -94,7 +94,7 @@
                         exact-active-class="is-active">
                             <b-icon icon="lock"></b-icon>
                             <span>Group Lock</span>
-                            <b-tag type="is-success">Patron Only</b-tag>
+                            <b-tag type="is-danger">Patron Only</b-tag>
                         </router-link>
                         <ul>
                             <li>
