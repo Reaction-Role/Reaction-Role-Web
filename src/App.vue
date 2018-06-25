@@ -7,7 +7,7 @@
                         <router-link to="/" class="navbar-item">
                             <img src="/static/favicon/favicon.png">
                         </router-link>
-                        <button class="button navbar-burger"
+                        <button class="button is-dark navbar-burger"
                             @click="navMenuActive = !navMenuActive">
                             <span></span>
                             <span></span>
