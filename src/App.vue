@@ -134,6 +134,9 @@ $box-color: $fullWhite;
 $box-background-color: $black;
 
 $content-heading-color: $fullWhite;
+$content-table-cell-heading-color: $fullWhite;
+$content-table-head-cell-color: $fullWhite;
+$content-table-foot-cell-color: $fullWhite;
 
 $code-background: $black;
 
