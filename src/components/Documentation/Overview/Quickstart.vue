@@ -13,28 +13,28 @@
         <hr>
 
         <div class="field">
-            <b-checkbox value="true"></b-checkbox>
+            <b-checkbox value="true" type="is-danger"></b-checkbox>
             <span class="selectable-checkbox-text">
                 Ensure the bot is in the server. Duh.
             </span>
         </div>
 
         <div class="field">
-            <b-checkbox></b-checkbox>
+            <b-checkbox type="is-danger"></b-checkbox>
             <span class="selectable-checkbox-text">
                 Ensure all emojis are uploaded and all roles are created
             </span>
         </div>
 
         <div class="field">
-            <b-checkbox></b-checkbox>
+            <b-checkbox type="is-danger"></b-checkbox>
             <span class="selectable-checkbox-text">
                 Ensure <code>Reaction Role</code> role is above the roles
             </span>
         </div>
 
         <div class="field">
-            <b-checkbox></b-checkbox>
+            <b-checkbox type="is-danger"></b-checkbox>
             <span class="selectable-checkbox-text">
                 Ensure Reaction Role has
                 <code>Embed Link</code> permission on <b>BOTH</b> the channel you
@@ -55,7 +55,7 @@
                 <ol type="a" class="alpha-list">
                     <li>Type your own message</li>
                     <li class="mb1em">Use
-                        <router-link to="/Documentation/MessageEmbed">
+                        <router-link to="/Documentation/MessageEmbed" class="diffLink">
                             MessageEmbed
                         </router-link>
                          commands for Rich Embed
@@ -63,18 +63,18 @@
                 </ol>
             </li>
             <li class="mb1em">Using
-                <router-link to="/Documentation/ReactionRole">
+                <router-link to="/Documentation/ReactionRole" class="diffLink">
                     ReactionRole
                 </router-link>
                 commands, input the corresponding parameters; You can find the message ID via
-                <router-link to="/Documentation/FindMessageID">
+                <router-link to="/Documentation/FindMessageID" class="diffLink">
                     this guide
                 </router-link>
                 and put it within the <code>MessageID</code> parameter
             </li>
             <li>
                 From here, you finished! But if you are a Patron: checkout
-                <router-link to="/Documentation/GroupLock">
+                <router-link to="/Documentation/GroupLock" class="diffLink">
                     Group Locking
                 </router-link>
             </li>

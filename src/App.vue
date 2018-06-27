@@ -101,7 +101,7 @@ $black: #23272A;
 $grey-light: $dark;
 $blurple-invert: findColorInvert($blurple);
 
-$colors: (
+$mcolors: (
   "white": ($fullWhite, $black),
   "black": ($black, $fullWhite),
   "light": ($light, $light-invert),
@@ -114,6 +114,8 @@ $colors: (
   "blurple": ($blurple, $blurple-invert),
   "fullwhite": ($fullWhite, $black)
 );
+
+$colors: map-merge($colors, $mcolors);
 
 $footer-background-color: $dark;
 
@@ -159,6 +161,13 @@ $pagination-color: $fullWhite;
 $pagination-current-background-color: $blurple;
 $pagination-current-border-color: $blurple;
 
+$breadcrumb-item-active-color: $blurple;
+$breadcrumb-item-separator-color: $fullWhite;
+
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
+
+.diffLink {
+    color: $link !important;
+}
 </style>
