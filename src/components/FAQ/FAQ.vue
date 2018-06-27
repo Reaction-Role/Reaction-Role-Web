@@ -8,7 +8,7 @@
         <Message title="What is Patron and how much does it cost?">
             Patron is someone that support the bot by contributing to the server
             host cost and you can do so through the Patreon button on the top right corner
-            and it cost $2/month. But it's totally optional and you will still be able to
+            and it cost $1/month. But it's totally optional and you will still be able to
             use the main feature of the bot without it.
         </Message>
 
