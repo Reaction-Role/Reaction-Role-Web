@@ -55,7 +55,7 @@
                 <ol type="a" class="alpha-list">
                     <li>Type your own message</li>
                     <li class="mb1em">Use
-                        <router-link to="/Documentation/MessageEmbed" class="diffLink">
+                        <router-link to="/Documentation/MessageEmbed">
                             MessageEmbed
                         </router-link>
                          commands for Rich Embed
@@ -63,18 +63,18 @@
                 </ol>
             </li>
             <li class="mb1em">Using
-                <router-link to="/Documentation/ReactionRole" class="diffLink">
+                <router-link to="/Documentation/ReactionRole">
                     ReactionRole
                 </router-link>
                 commands, input the corresponding parameters; You can find the message ID via
-                <router-link to="/Documentation/FindMessageID" class="diffLink">
+                <router-link to="/Documentation/FindMessageID">
                     this guide
                 </router-link>
                 and put it within the <code>MessageID</code> parameter
             </li>
             <li>
                 From here, you finished! But if you are a Patron: checkout
-                <router-link to="/Documentation/GroupLock" class="diffLink">
+                <router-link to="/Documentation/GroupLock">
                     Group Locking
                 </router-link>
             </li>

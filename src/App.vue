@@ -163,8 +163,4 @@ $footer-background-color: $white;
 @import "~bulma";
 @import "~bulmaswatch/sandstone/_overrides";
 @import "~buefy/src/scss/buefy";
-
-.diffLink {
-    color: $link !important;
-}
 </style>
