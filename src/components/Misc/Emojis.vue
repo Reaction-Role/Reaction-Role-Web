@@ -4,7 +4,7 @@
             <b-input v-model="search" placeholder="Search..." icon="search"></b-input>
 
             <div class="control is-flex">
-                <b-switch v-model="animatedOnly" type="is-blurple">Animated Only</b-switch>
+                <b-switch v-model="animatedOnly">Animated Only</b-switch>
             </div>
 
             <div class="control">

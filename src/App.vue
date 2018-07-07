@@ -1,5 +1,5 @@
 <template>
-    <section id="app" class="hero is-dark is-fullheight">
+    <section id="app" class="hero is-fullheight">
         <div class="hero-head">
             <nav class="navbar" role="navigation" aria-label="Navigation">
                 <div class="container">
@@ -92,73 +92,75 @@ export default {
 <style lang="scss">
 @import "~bulma/sass/utilities/_all";
 
-$blurple: #7289DA;
-$fullWhite: #fff;
-$greyple: #99AAB5;
-$dark: #2C2F33;
-$black: #23272A;
+// $blurple: #7289DA;
+// $fullWhite: #fff;
+// $greyple: #99AAB5;
+// $dark: #2C2F33;
+// $black: #23272A;
 
-$grey-light: $dark;
-$blurple-invert: findColorInvert($blurple);
+// $grey-light: $dark;
+// $blurple-invert: findColorInvert($blurple);
 
-$colors: (
-  "white": ($fullWhite, $black),
-  "black": ($black, $fullWhite),
-  "light": ($light, $light-invert),
-  "dark": ($dark, $fullWhite),
-  "primary": ($primary, $primary-invert),
-  "info": ($info, $info-invert),
-  "success": ($success, $success-invert),
-  "warning": ($warning, $warning-invert),
-  "danger": ($danger, $danger-invert),
-  "blurple": ($blurple, $blurple-invert),
-  "fullwhite": ($fullWhite, $black)
-);
+// $colors: (
+//   "white": ($fullWhite, $black),
+//   "black": ($black, $fullWhite),
+//   "light": ($light, $light-invert),
+//   "dark": ($dark, $fullWhite),
+//   "primary": ($primary, $primary-invert),
+//   "info": ($info, $info-invert),
+//   "success": ($success, $success-invert),
+//   "warning": ($warning, $warning-invert),
+//   "danger": ($danger, $danger-invert),
+//   "blurple": ($blurple, $blurple-invert),
+//   "fullwhite": ($fullWhite, $black)
+// );
 
-$footer-background-color: $dark;
+$footer-background-color: $white;
 
-$navbar-item-hover-background-color: $black;
-$navbar-dropdown-arrow: $fullWhite;
-$navbar-dropdown-background-color: $dark;
-$navbar-dropdown-item-hover-background-color: $black;
+// $navbar-item-hover-background-color: $black;
+// $navbar-dropdown-arrow: $fullWhite;
+// $navbar-dropdown-background-color: $dark;
+// $navbar-dropdown-item-hover-background-color: $black;
 
-$menu-item-color: $fullWhite;
-$menu-item-hover-color: $greyple;
-$menu-item-hover-background-color: $black;
-$menu-item-active-background-color: $blurple;
+// $menu-item-color: $fullWhite;
+// $menu-item-hover-color: $greyple;
+// $menu-item-hover-background-color: $black;
+// $menu-item-active-background-color: $blurple;
 
-$card-color: $fullWhite;
-$card-background-color: $black;
+// $card-color: $fullWhite;
+// $card-background-color: $black;
 
-$box-color: $fullWhite;
-$box-background-color: $black;
+// $box-color: $fullWhite;
+// $box-background-color: $black;
 
-$content-heading-color: $fullWhite;
-$content-table-cell-heading-color: $fullWhite;
-$content-table-head-cell-color: $fullWhite;
-$content-table-foot-cell-color: $fullWhite;
+// $content-heading-color: $fullWhite;
+// $content-table-cell-heading-color: $fullWhite;
+// $content-table-head-cell-color: $fullWhite;
+// $content-table-foot-cell-color: $fullWhite;
 
-$code-background: $black;
+// $code-background: $black;
 
-$table-color: $fullWhite;
-$table-background-color: $black;
-$table-cell-heading-color: $fullWhite;
-$table-head-cell-color: $fullWhite;
-$table-foot-cell-color: $fullWhite;
-$table-row-hover-background-color: $dark;
-$table-row-active-background-color: $blurple;
-$table-cell-border: 1px solid $black-bis;
+// $table-color: $fullWhite;
+// $table-background-color: $black;
+// $table-cell-heading-color: $fullWhite;
+// $table-head-cell-color: $fullWhite;
+// $table-foot-cell-color: $fullWhite;
+// $table-row-hover-background-color: $dark;
+// $table-row-active-background-color: $blurple;
+// $table-cell-border: 1px solid $black-bis;
 
-$input-color: $fullWhite;
-$input-background-color: $black;
-$input-border-color: $black;
-$input-hover-border-color: $dark;
-$input-focus-border-color: $dark;
+// $input-color: $fullWhite;
+// $input-background-color: $black;
+// $input-border-color: $black;
+// $input-hover-border-color: $dark;
+// $input-focus-border-color: $dark;
 
-$pagination-color: $fullWhite;
-$pagination-current-background-color: $blurple;
-$pagination-current-border-color: $blurple;
+// $pagination-color: $fullWhite;
+// $pagination-current-background-color: $blurple;
+// $pagination-current-border-color: $blurple;
 
+@import "~bulmaswatch/sandstone/_variables";
 @import "~bulma";
+@import "~bulmaswatch/sandstone/_overrides";
 @import "~buefy/src/scss/buefy";
 </style>
