@@ -85,6 +85,27 @@
                 typeRef="/Documentation/ParameterTypes#String"
                 desc="The Reference ID given when creating" />
         </ParamTable>
+
+        <h4 id="Toggle Legacy">
+            <b-icon icon="toggle-off"></b-icon>
+            <span>Toggle Legacy</span>
+        </h4>
+
+        <p>
+            Go back to the previous behavior of blocking reaction instead of removing old reactions
+        </p>
+
+        <p>
+            Example Command: <code>>togglelegacy ReferenceID</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name="ReferenceID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The Reference ID given when creating" />
+        </ParamTable>
     </div>
 </template>
 

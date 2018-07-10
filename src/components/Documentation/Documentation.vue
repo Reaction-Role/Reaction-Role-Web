@@ -118,6 +118,13 @@
                                     <span>Release Lock</span>
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link to="/Documentation/GroupLock#ToggleLegacy"
+                                exact-active-class="is-active">
+                                    <b-icon icon="toggle-off"></b-icon>
+                                    <span>Toggle Legacy</span>
+                                </router-link>
+                            </li>
                         </ul>
                     </li>
                     <li>

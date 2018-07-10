@@ -52,7 +52,8 @@
                     name="Body"
                     type="String"
                     typeRef="/Documentation/ParameterTypes#String"
-                    desc="The body or description of the embedded; If multiple words/lines, quote it" />
+                    desc="The body or description of the embedded; If multiple words/lines,
+                    quote it" />
                 <ParamRow
                     name="B64"
                     type="String"
