@@ -32,7 +32,7 @@
                 Ensure <code>Reaction Role</code> role is above the roles
             </span>
         </div>
-        
+
         <hr>
 
         <p>

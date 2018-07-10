@@ -86,7 +86,7 @@
 
         <p>
             Example Command: <code>>removeallroles #Channel MessageID</code>
-        </p> 
+        </p>
 
         <ParamTable>
             <ParamRow
