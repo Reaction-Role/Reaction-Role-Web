@@ -123,6 +123,7 @@
                                 exact-active-class="is-active">
                                     <b-icon icon="toggle-off"></b-icon>
                                     <span>Toggle Legacy</span>
+                                    <b-tag type="is-info">New</b-tag>
                                 </router-link>
                             </li>
                         </ul>

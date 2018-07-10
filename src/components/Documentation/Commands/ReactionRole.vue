@@ -74,6 +74,33 @@
                 desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
         </ParamTable>
 
+        <h5 id="deleteallviacommand">
+            <b-icon icon="terminal"></b-icon>
+            <span>Deleting all via command</span>
+            <b-tag type="is-info">New</b-tag>
+        </h5>
+
+        <p>
+            Delete all the reaction roles on a message
+        </p>
+
+        <p>
+            Example Command: <code>>removeallroles #Channel MessageID</code>
+        </p> 
+
+        <ParamTable>
+            <ParamRow
+                    name="#Channel"
+                    type="Mention"
+                    typeRef="/Documentation/ParameterTypes#Mention"
+                    desc="The channel where the message to delete is" />
+                <ParamRow
+                    name="MessageID"
+                    type="String"
+                    typeRef="/Documentation/ParameterTypes#String"
+                    desc="The message ID of the message to delete" />
+        </ParamTable>
+
         <h5 id="deleteviamessagedelete">
             <b-icon icon="comment" pack="far"></b-icon>
             <span>Deletion via message delete</span>

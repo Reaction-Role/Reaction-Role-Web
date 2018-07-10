@@ -89,6 +89,7 @@
         <h4 id="Toggle Legacy">
             <b-icon icon="toggle-off"></b-icon>
             <span>Toggle Legacy</span>
+            <b-tag type="is-info">New</b-tag>
         </h4>
 
         <p>
