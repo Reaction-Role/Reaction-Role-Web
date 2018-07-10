@@ -15,7 +15,9 @@
                     </div>
                     <div class="media-content">
                         <p class="title is-4">{{ title }}</p>
-                        <p class="subtitle is-6">By {{ author.name }}</p>
+                        <p class="subtitle is-6">
+                            By <a :href="author.url" target="_blank">{{ author.name }}</a>
+                        </p>
                     </div>
                 </div>
                 <div class="content">
@@ -37,6 +39,7 @@ export default {
                 return {
                     name: 'Fishy!',
                     avatar_url: 'https://cdn.discordapp.com/avatars/105122038586286080/d64cb41df894db5471f6e54bf21562d8.png?size=64',
+                    url: 'https://keybase.io/rumblefrog',
                 };
             },
         },
