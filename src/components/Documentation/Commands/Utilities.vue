@@ -24,6 +24,28 @@
             Command: <code>>help</code>
         </p>
 
+        <h4 id="Prefix">
+            <b-icon icon="chevron-right"></b-icon>
+            <span>Prefix</span>
+            <b-tag type="is-info">New</b-tag>
+        </h4>
+
+        <p>
+            Change command prefix on guild
+        </p>
+
+        <p>
+            Example Command: <code>>prefix NewPrefix</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name=NewPrefix
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The new command prefix to use" />
+        </ParamTable>
+
         <h4 id="FetchMessage">
             <b-icon icon="search"></b-icon>
             <span>Fetch Message Reaction Roles</span>

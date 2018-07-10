@@ -143,6 +143,14 @@
                                 </router-link>
                             </li>
                             <li>
+                                <router-link to="/Documentation/Utilities#Prefix"
+                                exact-active-class="is-active">
+                                    <b-icon icon="chevron-right"></b-icon>
+                                    <span>Prefix</span>
+                                    <b-tag type="is-info">New</b-tag>
+                                </router-link>
+                            </li>
+                            <li>
                                 <router-link to="/Documentation/Utilities#FetchMessage"
                                 exact-active-class="is-active">
                                     <b-icon icon="search"></b-icon>
