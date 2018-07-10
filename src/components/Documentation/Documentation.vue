@@ -85,6 +85,7 @@
                                 exact-active-class="is-active">
                                     <b-icon icon="trash-alt" pack="far"></b-icon>
                                     <span>Delete Reaction Role</span>
+                                    <b-tag type="is-info">Contains New</b-tag>
                                 </router-link>
                             </li>
                         </ul>
