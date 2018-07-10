@@ -23,6 +23,14 @@
             <email>fishy@reaction-role.com</email>
         </Message>
 
+        <Message title="How can I get my Reaction Role
+        tutorial video featured on the videos page?">
+            If you feel like your video is up to the quality standard and would like it
+            be featured on the videos page, contact me at <email>fishy@reaction-role.com</email>
+            with the video link and a brief description of the video. I will reply back asking for
+            more info If I deem that it should be featured.
+        </Message>
+
         <Message title="Is the bot open-source?">
             Unfortunately not, the bot will strictly be closed source.
         </Message>
