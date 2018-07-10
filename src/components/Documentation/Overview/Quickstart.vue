@@ -32,16 +32,7 @@
                 Ensure <code>Reaction Role</code> role is above the roles
             </span>
         </div>
-
-        <div class="field">
-            <b-checkbox type="is-danger"></b-checkbox>
-            <span class="selectable-checkbox-text">
-                Ensure Reaction Role has
-                <code>Embed Link</code> permission on <b>BOTH</b> the channel you
-                are typing the command in <b>AND</b> the channel you are pointing at
-            </span>
-        </div>
-
+        
         <hr>
 
         <p>
