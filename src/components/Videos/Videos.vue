@@ -20,7 +20,7 @@
                 title="Your Video"
                 desc="If you want your Reaction Role tutorials featured here,
                 check out FAQ page for info"
-                src="/static/video/holder.webm"
+                src="/static/video/holder.mp4"
                 :author="a('holder')" />
         </div>
     </div>
