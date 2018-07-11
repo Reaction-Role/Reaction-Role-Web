@@ -28,7 +28,7 @@
         </p>
 
         <p>
-            Example Command: <code>>embedmessage #Channel Color "Title" "Body"</code>
+            Example Command: <code>r/embedmessage #Channel Color "Title" "Body"</code>
         </p>
 
         <ParamTable>
@@ -72,7 +72,7 @@
         </p>
 
         <p>
-            Example Command: <code>>editmessage #Channel MessageID Element NewValue</code>
+            Example Command: <code>r/editmessage #Channel MessageID Element NewValue</code>
         </p>
 
         <ParamTable>

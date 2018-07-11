@@ -21,7 +21,7 @@
         </p>
 
         <p>
-            Command: <code>>help</code>
+            Command: <code>r/help</code>
         </p>
 
         <h4 id="Prefix">
@@ -35,7 +35,7 @@
         </p>
 
         <p>
-            Example Command: <code>>prefix NewPrefix</code>
+            Example Command: <code>r/prefix NewPrefix</code>
         </p>
 
         <ParamTable>
@@ -56,7 +56,7 @@
         </p>
 
         <p>
-            Example Command: <code>>fetchmessage #Channel MessageID</code>
+            Example Command: <code>r/fetchmessage #Channel MessageID</code>
         </p>
 
         <ParamTable>
@@ -82,7 +82,7 @@
         </p>
 
         <p>
-            Example Command: <code>>fetchlock #Channel MessageID</code>
+            Example Command: <code>r/fetchlock #Channel MessageID</code>
         </p>
 
         <ParamTable>

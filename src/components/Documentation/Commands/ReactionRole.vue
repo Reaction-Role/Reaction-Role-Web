@@ -17,7 +17,7 @@
         </h4>
 
         <p>
-            Example Command: <code>>addrole #Channel MessageID :Emoji: @Role</code>
+            Example Command: <code>r/addrole #Channel MessageID :Emoji: @Role</code>
         </p>
 
         <ParamTable>
@@ -63,7 +63,7 @@
         <hr>
 
         <p>
-            Example Command: <code>>removerole ReferenceID</code>
+            Example Command: <code>r/removerole ReferenceID</code>
         </p>
 
         <ParamTable>
@@ -85,7 +85,7 @@
         </p>
 
         <p>
-            Example Command: <code>>removeallroles #Channel MessageID</code>
+            Example Command: <code>r/removeallroles #Channel MessageID</code>
         </p>
 
         <ParamTable>

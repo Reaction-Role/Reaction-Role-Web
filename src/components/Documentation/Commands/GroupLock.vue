@@ -26,7 +26,7 @@
         </div>
 
         <p>
-            Example Command: <code>>lockmessage #Channel MessageID</code>
+            Example Command: <code>r/lockmessage #Channel MessageID</code>
         </p>
 
         <ParamTable>
@@ -54,7 +54,7 @@
         </p>
 
         <p>
-            Example Command: <code>>createlock ReferenceID...</code>
+            Example Command: <code>r/createlock ReferenceID...</code>
         </p>
 
         <ParamTable>
@@ -75,7 +75,7 @@
         </p>
 
         <p>
-            Example Command: <code>>releaselock ReferenceID</code>
+            Example Command: <code>r/releaselock ReferenceID</code>
         </p>
 
         <ParamTable>
@@ -97,7 +97,7 @@
         </p>
 
         <p>
-            Example Command: <code>>togglelegacy ReferenceID</code>
+            Example Command: <code>r/togglelegacy ReferenceID</code>
         </p>
 
         <ParamTable>
