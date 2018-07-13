@@ -56,15 +56,10 @@
         </p>
 
         <p>
-            Example Command: <code>r/fetchmessage #Channel MessageID</code>
+            Example Command: <code>r/fetchmessage MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message fetch for is" />
             <ParamRow
                 name="MessageID"
                 type="String"
@@ -82,15 +77,10 @@
         </p>
 
         <p>
-            Example Command: <code>r/fetchlock #Channel MessageID</code>
+            Example Command: <code>r/fetchlock MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message fetch for is" />
             <ParamRow
                 name="MessageID"
                 type="String"

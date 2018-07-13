@@ -85,20 +85,15 @@
         </p>
 
         <p>
-            Example Command: <code>r/removeallroles #Channel MessageID</code>
+            Example Command: <code>r/removeallroles MessageID</code>
         </p>
 
         <ParamTable>
             <ParamRow
-                    name="#Channel"
-                    type="Mention"
-                    typeRef="/Documentation/ParameterTypes#Mention"
-                    desc="The channel where the message to delete is" />
-                <ParamRow
-                    name="MessageID"
-                    type="String"
-                    typeRef="/Documentation/ParameterTypes#String"
-                    desc="The message ID of the message to delete" />
+                name="MessageID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The message ID of the message to delete" />
         </ParamTable>
 
         <h5 id="deleteviamessagedelete">

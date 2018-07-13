@@ -26,15 +26,10 @@
         </div>
 
         <p>
-            Example Command: <code>r/lockmessage #Channel MessageID</code>
+            Example Command: <code>r/lockmessage MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message to lock is" />
             <ParamRow
                 name="MessageID"
                 type="String"
