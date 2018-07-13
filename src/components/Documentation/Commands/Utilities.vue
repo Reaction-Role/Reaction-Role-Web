@@ -21,8 +21,30 @@
         </p>
 
         <p>
-            Command: <code>>help</code>
+            Command: <code>r/help</code>
         </p>
+
+        <h4 id="Prefix">
+            <b-icon icon="chevron-right"></b-icon>
+            <span>Prefix</span>
+            <b-tag type="is-info">New</b-tag>
+        </h4>
+
+        <p>
+            Change command prefix on guild
+        </p>
+
+        <p>
+            Example Command: <code>r/prefix NewPrefix</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name=NewPrefix
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The new command prefix to use" />
+        </ParamTable>
 
         <h4 id="FetchMessage">
             <b-icon icon="search"></b-icon>
@@ -34,15 +56,10 @@
         </p>
 
         <p>
-            Example Command: <code>>fetchmessage #Channel MessageID</code>
+            Example Command: <code>r/fetchmessage MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message fetch for is" />
             <ParamRow
                 name="MessageID"
                 type="String"
@@ -60,15 +77,10 @@
         </p>
 
         <p>
-            Example Command: <code>>fetchlock #Channel MessageID</code>
+            Example Command: <code>r/fetchlock MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message fetch for is" />
             <ParamRow
                 name="MessageID"
                 type="String"

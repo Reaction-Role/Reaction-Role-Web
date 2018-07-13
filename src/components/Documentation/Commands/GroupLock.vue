@@ -26,15 +26,10 @@
         </div>
 
         <p>
-            Example Command: <code>>lockmessage #Channel MessageID</code>
+            Example Command: <code>r/lockmessage MessageID</code>
         </p>
 
         <ParamTable>
-            <ParamRow
-                name="#Channel"
-                type="Mention"
-                typeRef="/Documentation/ParameterTypes#Mention"
-                desc="The channel where the message to lock is" />
             <ParamRow
                 name="MessageID"
                 type="String"
@@ -54,7 +49,7 @@
         </p>
 
         <p>
-            Example Command: <code>>createlock ReferenceID...</code>
+            Example Command: <code>r/createlock ReferenceID...</code>
         </p>
 
         <ParamTable>
@@ -75,7 +70,29 @@
         </p>
 
         <p>
-            Example Command: <code>>releaselock ReferenceID</code>
+            Example Command: <code>r/releaselock ReferenceID</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name="ReferenceID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The Reference ID given when creating" />
+        </ParamTable>
+
+        <h4 id="Toggle Legacy">
+            <b-icon icon="toggle-off"></b-icon>
+            <span>Toggle Legacy</span>
+            <b-tag type="is-info">New</b-tag>
+        </h4>
+
+        <p>
+            Go back to the previous behavior of blocking reaction instead of removing old reactions
+        </p>
+
+        <p>
+            Example Command: <code>r/togglelegacy ReferenceID</code>
         </p>
 
         <ParamTable>

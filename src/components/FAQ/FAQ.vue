@@ -1,10 +1,5 @@
 <template>
     <div>
-        <Message title="Can I change the prefix?">
-            No, the commands aren't designed to be used often enough to have ability
-            to change prefix. If you want you could ping the bot directly with the commands.
-        </Message>
-
         <Message title="Can this bot replace Zira?">
             No, Zira and Reaction Role is a totally different bot with the thing being
             in common is the ability to assign roles base on reactions.
@@ -26,6 +21,14 @@
             Of course, if you run a large size guild (1000+ members)
             and is interested in becoming a partner, reach out to me at
             <email>fishy@reaction-role.com</email>
+        </Message>
+
+        <Message title="How can I get my Reaction Role
+        tutorial video featured on the videos page?">
+            If you feel like your video is up to the quality standard and would like it
+            be featured on the videos page, contact me at <email>fishy@reaction-role.com</email>
+            with the video link and a brief description of the video. I will reply back asking for
+            more info If I deem that it should be featured.
         </Message>
 
         <Message title="Is the bot open-source?">

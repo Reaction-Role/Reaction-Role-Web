@@ -15,6 +15,13 @@
                 title="Group Lock"
                 desc="Demo of the Patron's feature: Group Locking"
                 src="/static/video/group_lock.mp4" />
+
+            <Video
+                title="Your Video"
+                desc="If you want your Reaction Role tutorials featured here,
+                check out FAQ page for info"
+                src="/static/video/holder.mp4"
+                :author="a('holder')" />
         </div>
     </div>
 </template>

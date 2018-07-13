@@ -17,7 +17,7 @@
         </h4>
 
         <p>
-            Example Command: <code>>addrole #Channel MessageID :Emoji: @Role</code>
+            Example Command: <code>r/addrole #Channel MessageID :Emoji: @Role</code>
         </p>
 
         <ParamTable>
@@ -63,7 +63,7 @@
         <hr>
 
         <p>
-            Example Command: <code>>removerole ReferenceID</code>
+            Example Command: <code>r/removerole ReferenceID</code>
         </p>
 
         <ParamTable>
@@ -72,6 +72,28 @@
                 type="String"
                 typeRef="/Documentation/ParameterTypes#String"
                 desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
+        </ParamTable>
+
+        <h5 id="deleteallviacommand">
+            <b-icon icon="terminal"></b-icon>
+            <span>Deleting all via command</span>
+            <b-tag type="is-info">New</b-tag>
+        </h5>
+
+        <p>
+            Delete all the reaction roles on a message
+        </p>
+
+        <p>
+            Example Command: <code>r/removeallroles MessageID</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name="MessageID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The message ID of the message to delete" />
         </ParamTable>
 
         <h5 id="deleteviamessagedelete">

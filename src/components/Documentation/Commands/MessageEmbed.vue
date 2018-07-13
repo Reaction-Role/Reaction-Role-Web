@@ -28,7 +28,7 @@
         </p>
 
         <p>
-            Example Command: <code>>embedmessage #Channel Color "Title" "Body"</code>
+            Example Command: <code>r/embedmessage #Channel Color "Title" "Body"</code>
         </p>
 
         <ParamTable>
@@ -52,7 +52,8 @@
                     name="Body"
                     type="String"
                     typeRef="/Documentation/ParameterTypes#String"
-                    desc="The body or description of the embedded; If multiple words/lines, quote it" />
+                    desc="The body or description of the embedded; If multiple words/lines,
+                    quote it" />
                 <ParamRow
                     name="B64"
                     type="String"
@@ -71,7 +72,7 @@
         </p>
 
         <p>
-            Example Command: <code>>editmessage #Channel MessageID Element NewValue</code>
+            Example Command: <code>r/editmessage #Channel MessageID Element NewValue</code>
         </p>
 
         <ParamTable>

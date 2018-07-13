@@ -85,6 +85,7 @@
                                 exact-active-class="is-active">
                                     <b-icon icon="trash-alt" pack="far"></b-icon>
                                     <span>Delete Reaction Role</span>
+                                    <b-tag type="is-info">Contains New</b-tag>
                                 </router-link>
                             </li>
                         </ul>
@@ -118,6 +119,14 @@
                                     <span>Release Lock</span>
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link to="/Documentation/GroupLock#ToggleLegacy"
+                                exact-active-class="is-active">
+                                    <b-icon icon="toggle-off"></b-icon>
+                                    <span>Toggle Legacy</span>
+                                    <b-tag type="is-info">New</b-tag>
+                                </router-link>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -132,6 +141,14 @@
                                 exact-active-class="is-active">
                                     <b-icon icon="info"></b-icon>
                                     <span>Help</span>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/Utilities#Prefix"
+                                exact-active-class="is-active">
+                                    <b-icon icon="chevron-right"></b-icon>
+                                    <span>Prefix</span>
+                                    <b-tag type="is-info">New</b-tag>
                                 </router-link>
                             </li>
                             <li>
