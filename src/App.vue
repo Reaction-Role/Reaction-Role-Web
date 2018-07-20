@@ -161,6 +161,7 @@ $footer-background-color: $white;
 
 @import "~bulmaswatch/sandstone/_variables";
 @import "~bulma";
+@import "~bulma-extensions/bulma-timeline/src/sass/index";
 @import "~bulmaswatch/sandstone/_overrides";
 @import "~buefy/src/scss/buefy";
 </style>

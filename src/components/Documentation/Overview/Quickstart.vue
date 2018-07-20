@@ -6,81 +6,93 @@
         </h2>
 
         <p>
-            There are some things you should prepare
-            before continuing with the bot and are listed below
+            Timeline of basic setup process
         </p>
 
         <hr>
 
-        <div class="field">
-            <b-checkbox value="true" type="is-danger"></b-checkbox>
-            <span class="selectable-checkbox-text">
-                Ensure the bot is in the server. Duh.
-            </span>
-        </div>
-
-        <div class="field">
-            <b-checkbox type="is-danger"></b-checkbox>
-            <span class="selectable-checkbox-text">
-                Ensure all emojis are uploaded and all roles are created
-            </span>
-        </div>
-
-        <div class="field">
-            <b-checkbox type="is-danger"></b-checkbox>
-            <span class="selectable-checkbox-text">
-                Ensure <code>Reaction Role</code> role is above the roles
-            </span>
-        </div>
-
-        <hr>
-
-        <p>
-            After you make sure you have done <b>ALL</b> of the above,
-            you may continue with the setup
-        </p>
-
-        <ol>
-            <li>
-                <span>Setup a message in which your user will react to by either</span>
-                <ol type="a" class="alpha-list">
-                    <li>Type your own message</li>
-                    <li class="mb1em">Use
+        <div class="timeline is-centered">
+            <header class="timeline-header">
+                <span class="tag is-medium is-primary">Start</span>
+            </header>
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-icon">
+                    <i class="far fa-comment"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Setup a message in which your users will react to</p>
+                    <p>This can in the form of a regular message you type or
                         <router-link to="/Documentation/MessageEmbed">
                             MessageEmbed
                         </router-link>
-                         commands for Rich Embed
-                    </li>
-                </ol>
-            </li>
-            <li class="mb1em">Using
-                <router-link to="/Documentation/ReactionRole">
-                    ReactionRole
-                </router-link>
-                commands, input the corresponding parameters; You can find the message ID via
-                <router-link to="/Documentation/FindMessageID">
-                    this guide
-                </router-link>
-                and put it within the <code>MessageID</code> parameter
-            </li>
-            <li>
-                From here, you finished! But if you are a Patron: checkout
-                <router-link to="/Documentation/GroupLock">
-                    Group Locking
-                </router-link>
-            </li>
-        </ol>
-
-        <hr>
-
-        <p>
-            If you are confused after reading the documentation, checkout the
-            <router-link to="/Videos">
-                videos
-            </router-link>
-            we have. If you are even confused after that, feel free to join
-            our server at the top <b>after</b> reading everything
-        </p>
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item is-info">
+                <div class="timeline-marker is-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Create Reaction Role</p>
+                    <p>
+                        <router-link to="/Documentation/FindMessageID">
+                            Find and copy the message ID
+                        </router-link> of the message you created and use it in
+                        <router-link to="/Documentation/ReactionRole#Create">
+                            ReactionRole
+                        </router-link>
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-header">
+                <span class="tag is-primary">Additional</span>
+            </div>
+            <div class="timeline-header"></div> <!-- Here so it starts the next one on the right -->
+            <div class="timeline-item is-success">
+                <div class="timeline-marker is-icon">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Finished!</p>
+                    <p>
+                        From here, you finished! But if you are a Patron: checkout
+                        <router-link to="/Documentation/GroupLock">
+                            Group Locking
+                        </router-link>
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item is-warning">
+                <div class="timeline-marker is-icon">
+                    <i class="far fa-play-circle"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Confused?</p>
+                    <p>
+                        If you are confused after reading the documentation, checkout our
+                        <router-link to="/Videos">
+                            videos
+                        </router-link>
+                        that we have.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item is-danger">
+                <div class="timeline-marker is-icon">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Still stuck?</p>
+                    <p>
+                         If you are even confused after that, feel free to join
+                        our server at the top <b>after</b> reading everything.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-header">
+                <span class="tag is-medium is-primary">End</span>
+            </div>
+        </div>
 
     </div>
 </template>
