@@ -1,10 +1,5 @@
 <template>
     <div>
-        <Message title="Can this bot replace Zira?">
-            No, Zira and Reaction Role is a totally different bot with the thing being
-            in common is the ability to assign roles base on reactions.
-        </Message>
-
         <Message title="What's the group lock feature?" tag="Patron Only">
             The group lock feature is a system where you can lock a group of
             reaction-roles to only one available at a time.
