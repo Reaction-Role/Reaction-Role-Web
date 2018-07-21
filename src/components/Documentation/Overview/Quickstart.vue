@@ -11,7 +11,7 @@
 
         <hr>
 
-        <div class="timeline is-centered">
+        <div class="timeline">
             <header class="timeline-header">
                 <span class="tag is-medium is-primary">Start</span>
             </header>
@@ -47,7 +47,6 @@
             <div class="timeline-header">
                 <span class="tag is-primary">Additional</span>
             </div>
-            <div class="timeline-header"></div> <!-- Here so it starts the next one on the right -->
             <div class="timeline-item is-success">
                 <div class="timeline-marker is-icon">
                     <i class="fa fa-lock"></i>
