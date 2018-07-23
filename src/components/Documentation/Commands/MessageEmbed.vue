@@ -72,7 +72,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/editmessage #Channel MessageID Element NewValue</code>
+            Example Command: <code>r/editmessage #Channel MessageID Element "NewValue"</code>
         </p>
 
         <ParamTable>
