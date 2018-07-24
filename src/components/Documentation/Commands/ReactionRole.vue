@@ -17,6 +17,10 @@
         </h4>
 
         <p>
+            Note that if you get <code>Unknown Message</code> as an error, please check that your Channel and MessageID is correct
+        </p>
+
+        <p>
             Example Command: <code>r/addrole #Channel MessageID :Emoji: @Role</code>
         </p>
 
