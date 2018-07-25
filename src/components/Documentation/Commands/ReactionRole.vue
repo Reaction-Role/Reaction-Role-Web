@@ -81,7 +81,6 @@
         <h5 id="deleteallviacommand">
             <b-icon icon="terminal"></b-icon>
             <span>Deleting all via command</span>
-            <b-tag type="is-info">New</b-tag>
         </h5>
 
         <p>

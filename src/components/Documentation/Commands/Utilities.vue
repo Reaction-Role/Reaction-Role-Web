@@ -27,7 +27,6 @@
         <h4 id="Prefix">
             <b-icon icon="chevron-right"></b-icon>
             <span>Prefix</span>
-            <b-tag type="is-info">New</b-tag>
         </h4>
 
         <p>
