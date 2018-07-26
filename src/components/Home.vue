@@ -51,7 +51,9 @@
                 <div class="columns is-multiline">
                     <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
                         <a :title="Patron.name">
-                            <div :style="`background-image:url(${Patron.avatar})`" class="patron"></div>
+                            <div
+                            :style="`background-image:url(${Patron.avatar})`"
+                            class="patron"></div>
                         </a>
                     </div>
                 </div>
