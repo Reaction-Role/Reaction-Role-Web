@@ -33,20 +33,22 @@
                 </article>
             </div>
         </div>
-        <div class="column is-7 container sponsor is-centered has-text-centered">
-            <h1 class="title">Patreon Supporters</h1>
-            <p class="sponsor-desc is-size-5">
-                Through donations, and sponsorship, you allow Reaction Role to blossom.
-                Your donation contributes directly to the hosting cost, and the development effort.
-                Without these individuals, the project wouldn't have made it this far.
-            </p>
-            <h2 class="title sponsor-title">Sponsor</h2>
-            <div>
-                <a href="#">
-                    <img src="~@/assets/img/sponsor.png">
-                </a>
+        <div class="columns">
+            <div class="column is-7 container sponsor is-centered has-text-centered">
+                <h1 class="title">Patreon Supporters</h1>
+                <p class="sponsor-desc is-size-5">
+                    Through donations, and sponsorship, you allow Reaction Role to blossom.
+                    Your donation contributes directly to the hosting cost,
+                    and the development effort.
+                </p>
+                <h2 class="title sponsor-title">Sponsor</h2>
+                <div>
+                    <a href="#">
+                        <img src="~@/assets/img/sponsor.png">
+                    </a>
+                </div>
+                <h2 class="title sponsor-title">Patrons</h2>
             </div>
-            <h2 class="title sponsor-title">Patrons</h2>
         </div>
     </div>
 </template>
@@ -63,7 +65,7 @@ export default {
     animation: mover 1.5s infinite alternate;
 }
 #reaction-role-container {
-    margin-top: 30vh;
+    margin-top: 25vh;
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
