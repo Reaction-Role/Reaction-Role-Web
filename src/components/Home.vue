@@ -28,6 +28,9 @@
                             <span>View Docs</span>
                         </router-link>
                     </div>
+                    <div class="sponsor">
+                        <h2 class="subtitle">Sponsored by</h2>
+                    </div>
                 </div>
             </article>
         </div>
@@ -55,6 +58,9 @@ export default {
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-30px); }
+}
+.sponsor {
+    margin-top: 2em;
 }
 </style>
 
