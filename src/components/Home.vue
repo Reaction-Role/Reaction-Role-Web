@@ -53,7 +53,9 @@
                         <div :style="`background-image:url(${Patron.avatar})`" class="patron"></div>
                     </div>
                 </div>
-                <a href="https://www.patreon.com/RumbleFrog" target="_blank" class="button is-danger is-medium">Become a Patron</a>
+                <a href="https://www.patreon.com/RumbleFrog" target="_blank">
+                    <img src="/static/img/become_a_patron_button.png">
+                </a>
             </div>
         </div>
     </div>
