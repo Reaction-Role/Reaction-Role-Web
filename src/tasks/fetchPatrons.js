@@ -14,13 +14,12 @@ async function fetchPatrons(opt = {}) {
     if (opt.hasOwnProperty('url'))
         url = opt.url;
     else
-        url = `https://www.patreon.com/api/oauth2/api/campaigns/${Campaign}/pledges`;
+        url = `https://www.patreon.com/api/campaigns/${Campaign}/pledges`;
 
     [ err, result ] = await to(
         Axios.get(url, {
             params: {
-                include: 'patron.null',
-                access_token: process.argv[2]
+                include: 'patron.null'
             }
         })
     );
