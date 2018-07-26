@@ -17,7 +17,8 @@
         </h4>
 
         <p>
-            Note that if you get <code>Unknown Message</code> as an error, please check that your Channel and MessageID is correct
+            Note that if you get <code>Unknown Message</code> as an error,
+            please check that your Channel and MessageID is correct
         </p>
 
         <p>
