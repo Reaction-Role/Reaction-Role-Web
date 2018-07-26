@@ -38,7 +38,7 @@ async function fetchPatrons(opt = {}) {
     else {
         console.log(`Fetched ${Patrons.length} patrons`);
 
-        Fs.writeFileSync('../assets/data/Patrons.json', JSON.stringify(Patrons));
+        Fs.writeFileSync('src/assets/data/Patrons.json', JSON.stringify(Patrons));
     }
 }
 
