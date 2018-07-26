@@ -17,6 +17,21 @@
             </header>
             <div class="timeline-item is-primary">
                 <div class="timeline-marker is-icon">
+                    <i class="far fa-play-circle"></i>
+                </div>
+                <div class="timeline-content">
+                    <p class="heading">Prefer videos?</p>
+                    <p>
+                        If you prefer video tutorials, checkout the
+                        <router-link to="/Videos">
+                            videos
+                        </router-link>
+                        that we have. Otherwise, continue with the steps.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item is-info">
+                <div class="timeline-marker is-icon">
                     <i class="far fa-comment"></i>
                 </div>
                 <div class="timeline-content">
@@ -28,7 +43,7 @@
                     </p>
                 </div>
             </div>
-            <div class="timeline-item is-info">
+            <div class="timeline-item is-success">
                 <div class="timeline-marker is-icon">
                     <i class="fab fa-react"></i>
                 </div>
@@ -47,7 +62,7 @@
             <div class="timeline-header">
                 <span class="tag is-primary">Additional</span>
             </div>
-            <div class="timeline-item is-success">
+            <div class="timeline-item is-warning">
                 <div class="timeline-marker is-icon">
                     <i class="fa fa-lock"></i>
                 </div>
@@ -61,21 +76,6 @@
                     </p>
                 </div>
             </div>
-            <div class="timeline-item is-warning">
-                <div class="timeline-marker is-icon">
-                    <i class="far fa-play-circle"></i>
-                </div>
-                <div class="timeline-content">
-                    <p class="heading">Confused?</p>
-                    <p>
-                        If you are confused after reading the documentation, checkout our
-                        <router-link to="/Videos">
-                            videos
-                        </router-link>
-                        that we have.
-                    </p>
-                </div>
-            </div>
             <div class="timeline-item is-danger">
                 <div class="timeline-marker is-icon">
                     <i class="fab fa-discord"></i>
@@ -83,7 +83,7 @@
                 <div class="timeline-content">
                     <p class="heading">Still stuck?</p>
                     <p>
-                         If you are even confused after that, feel free to join
+                         If you are confused after everything, feel free to join
                         our server at the top <b>after</b> reading everything.
                     </p>
                 </div>
