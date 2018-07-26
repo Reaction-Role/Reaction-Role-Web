@@ -43,14 +43,16 @@
                 </p>
                 <h2 class="title sponsor-title">Sponsor</h2>
                 <div>
-                    <a href="https://discord.gg/MrdCAnE" target="_blank">
+                    <a href="https://discord.gg/MrdCAnE" target="_blank" title="Tuxedo Gaming">
                         <img src="~@/assets/img/sponsor.png" class="sponsor-asset">
                     </a>
                 </div>
                 <h2 class="title sponsor-title">Patrons</h2>
                 <div class="columns is-multiline">
                     <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
-                        <div :style="`background-image:url(${Patron.avatar})`" class="patron"></div>
+                        <a :title="Patron.name">
+                            <div :style="`background-image:url(${Patron.avatar})`" class="patron"></div>
+                        </a>
                     </div>
                 </div>
                 <a href="https://www.patreon.com/RumbleFrog" target="_blank">
