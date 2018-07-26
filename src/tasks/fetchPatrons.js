@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const Axios = require('axios')
     , Fs = require('fs')
     , { to } = require('await-to-js');
