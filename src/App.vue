@@ -165,3 +165,10 @@ $footer-background-color: $white;
 @import "~bulmaswatch/sandstone/_overrides";
 @import "~buefy/src/scss/buefy";
 </style>
+
+<style scoped>
+.navbar {
+    border-radius: 0;
+}
+</style>
+
