@@ -43,19 +43,32 @@
                 </p>
                 <h2 class="title sponsor-title">Sponsor</h2>
                 <div>
-                    <a href="#">
-                        <img src="~@/assets/img/sponsor.png">
+                    <a href="https://discord.gg/MrdCAnE" target="_blank">
+                        <img src="~@/assets/img/sponsor.png" class="sponsor-asset">
                     </a>
                 </div>
                 <h2 class="title sponsor-title">Patrons</h2>
+                <div class="columns is-multiline">
+                    <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
+                        <div :style="`background-image:url(${Patron.avatar})`" class="patron"></div>
+                    </div>
+                </div>
+                <a href="https://www.patreon.com/RumbleFrog" target="_blank" class="button is-danger is-medium">Become a Patron</a>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import Patrons from '@/assets/data/Patrons.json';
+
 export default {
     name: 'Home',
+    data() {
+        return {
+            Patrons,
+        };
+    },
 };
 </script>
 
@@ -84,6 +97,20 @@ export default {
 }
 .sponsor {
     padding: 5em 1em;
+}
+.sponsor-asset {
+    border-radius: 50%;
+    border: 2px solid #FF2B56;
+}
+.patron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding-top: 90%;
+    border: 2px solid #70ca0a;
 }
 </style>
 
