@@ -102,6 +102,7 @@ export default {
 .patron {
     width: 45px;
     height: 45px;
+    min-width: 45px;
     border-radius: 50%;
     border: 2px solid #70ca0a;
 }
