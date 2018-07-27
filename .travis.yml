@@ -10,7 +10,7 @@ install:
   - yarn
 
 script:
-  - node src/tasks/fetchPatrons.js $patreon_key
+  - node src/tasks/fetchPatrons.js
   - yarn unit
   - yarn build
 
