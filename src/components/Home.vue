@@ -42,9 +42,9 @@
                 <h2 class="title sponsor-title">Patrons</h2>
                 <div class="columns is-multiline">
                     <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
-                        <a :title="Patron.name">
-                            <img v-lazy="Patron.avatar" class="patron">
-                        </a>
+                        <b-tooltip :label="Patron.name">
+                            <img v-lazy="Patron.avatar" class="patron" :alt="Patron.name">
+                        </b-tooltip>
                     </div>
                 </div>
                 <a href="https://www.patreon.com/RumbleFrog" target="_blank">
