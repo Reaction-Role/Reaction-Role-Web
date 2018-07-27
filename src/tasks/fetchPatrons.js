@@ -30,7 +30,7 @@ async function fetchPatrons(opt = {}) {
     }
 
     for (const Patron of result.data.included)
-        Patrons.push({ id: Patron.id, name: Patron.attributes.first_name, avatar: Patron.attributes.image_url });
+        Patrons.push({ id: Patron.id, name: Patron.attributes.first_name, avatar: Patron.attributes.thumb_url });
 
     if (result.data.links.hasOwnProperty('next'))
         fetchPatrons({ url: result.data.links.next });
