@@ -43,7 +43,7 @@
                 <div class="columns is-multiline">
                     <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
                         <a :title="Patron.name">
-                            <img :src="Patron.avatar" class="patron">
+                            <img v-lazy="Patron.avatar" class="patron">
                         </a>
                     </div>
                 </div>
