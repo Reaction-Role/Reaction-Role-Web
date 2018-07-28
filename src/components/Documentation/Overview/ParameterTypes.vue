@@ -16,6 +16,12 @@
             or else it will interpret it as mulitple strings
         </p>
 
+        <h4 id="Integer">Integer</h4>
+
+        <p>
+            Numbers without decimal (whole numbers)
+        </p>
+
         <h4 id="Mention">Mention</h4>
 
         <p>

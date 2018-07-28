@@ -87,6 +87,22 @@
                                     <span>Delete Reaction Role</span>
                                 </router-link>
                             </li>
+                            <li>
+                                <router-link to="/Documentation/ReactionRole#Lifespan"
+                                exact-active-class="is-active">
+                                    <b-icon icon="hourglass-half"></b-icon>
+                                    <span>Set Lifespan</span>
+                                    <b-tag type="is-danger">Patron Early-Access</b-tag>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/Documentation/ReactionRole#SingleUse"
+                                exact-active-class="is-active">
+                                    <b-icon icon="toggle-off"></b-icon>
+                                    <span>Toggle Single Use</span>
+                                    <b-tag type="is-danger">Patron Early-Access</b-tag>
+                                </router-link>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -94,6 +110,7 @@
                         exact-active-class="is-active">
                             <b-icon icon="lock"></b-icon>
                             <span>Group Lock</span>
+                            <b-tag type="is-info">Now available to everyone!</b-tag>
                         </router-link>
                         <ul>
                             <li>
