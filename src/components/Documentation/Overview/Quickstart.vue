@@ -73,7 +73,13 @@
                         <router-link to="/Documentation/GroupLock">
                             Group Locking!
                         </router-link>
-                        If you are a Patron, checkout lifespan and single use!
+                        If you are a Patron, checkout
+                        <router-link to="/Documentation/ReactionRole#Lifespan">
+                            lifespan
+                        </router-link>and
+                        <router-link to="/Documentation/ReactionRole#SingleUse">
+                            single use
+                        </router-link>
                     </p>
                 </div>
             </div>

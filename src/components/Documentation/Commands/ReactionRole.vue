@@ -115,6 +115,7 @@
         <h4 id="Lifespan">
             <b-icon icon="hourglass-half"></b-icon>
             <span>Set Lifespan</span>
+            <b-tag type="is-danger">Patron Early-Access</b-tag>
         </h4>
 
         <p>
@@ -141,10 +142,12 @@
         <h4 id="SingleUse">
             <b-icon icon="toggle-off"></b-icon>
             <span>Toggle Single Use</span>
+            <b-tag type="is-danger">Patron Early-Access</b-tag>
         </h4>
 
         <p>
-            Toggles the Reaction Role to be single use; Deletes reaction after use and cannot unassign the role through reaction.
+            Toggles the Reaction Role to be single use;
+            Deletes reaction after use and cannot unassign the role through reaction.
         </p>
 
         <p>
