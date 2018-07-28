@@ -69,10 +69,11 @@
                 <div class="timeline-content">
                     <p class="heading">Finished!</p>
                     <p>
-                        From here, you finished! But if you are a Patron: checkout
+                        From here, you finished! But for additional configuration: checkout
                         <router-link to="/Documentation/GroupLock">
-                            Group Locking
+                            Group Locking!
                         </router-link>
+                        If you are a Patron, checkout lifespan and single use!
                     </p>
                 </div>
             </div>
