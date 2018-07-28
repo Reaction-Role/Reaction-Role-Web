@@ -14,13 +14,12 @@ async function fetchPatrons(opt = {}) {
     if (opt.hasOwnProperty('url'))
         url = opt.url;
     else
-        url = `https://www.patreon.com/api/oauth2/api/campaigns/${Campaign}/pledges`;
+        url = `https://www.patreon.com/api/campaigns/${Campaign}/pledges`;
 
     [ err, result ] = await to(
         Axios.get(url, {
             params: {
-                include: 'patron.null',
-                access_token: process.argv[2]
+                include: 'patron.null'
             }
         })
     );
@@ -31,7 +30,7 @@ async function fetchPatrons(opt = {}) {
     }
 
     for (const Patron of result.data.included)
-        Patrons.push({ id: Patron.id, name: Patron.attributes.first_name, avatar: Patron.attributes.image_url });
+        Patrons.push({ id: Patron.id, name: Patron.attributes.first_name, avatar: Patron.attributes.thumb_url });
 
     if (result.data.links.hasOwnProperty('next'))
         fetchPatrons({ url: result.data.links.next });

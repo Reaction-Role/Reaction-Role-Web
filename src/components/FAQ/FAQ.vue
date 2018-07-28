@@ -13,7 +13,7 @@
         </Message>
 
         <Message title="Are you looking for partnership?">
-            Of course, if you run a large size guild (1000+ members)
+            Of course, if you run a large size guild (5000+ members)
             and is interested in becoming a partner, reach out to me at
             <email>fishy@reaction-role.com</email>
         </Message>
