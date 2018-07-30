@@ -76,13 +76,12 @@
                 name="ReferenceID"
                 type="String"
                 typeRef="/Documentation/ParameterTypes#String"
-                desc="Whether to parse emoji as base64 encoded (Pass b64 to enable)" />
+                desc="The Reaction Role Reference ID to delete" />
         </ParamTable>
 
         <h5 id="deleteallviacommand">
             <b-icon icon="terminal"></b-icon>
             <span>Deleting all via command</span>
-            <b-tag type="is-info">New</b-tag>
         </h5>
 
         <p>
@@ -109,9 +108,59 @@
         <p>
             You can also delete the message itself that the Reaction Role is on
             but note doing so will remove all the reaction roles on that message
+
+            <img src="/static/img/delete.png" alt="Delete Message">
         </p>
 
-        <img src="/static/img/delete.png" alt="Delete Message">
+        <h4 id="Lifespan">
+            <b-icon icon="hourglass-half"></b-icon>
+            <span>Set Lifespan</span>
+            <b-tag type="is-danger">Patron Early-Access</b-tag>
+        </h4>
+
+        <p>
+            Set the lifespan of the Reaction Role to self-destruct after desired time (seconds)
+        </p>
+
+        <p>
+            Example Command: <code>r/setlifespan ReferenceID Lifespan</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name="ReferenceID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The Reaction Role Reference ID to set the lifespan on" />
+            <ParamRow
+                name="Lifespan"
+                type="Integer"
+                typeRef="/Documentation/ParameterTypes#Integer"
+                desc="The lifespan in seconds" />
+        </ParamTable>
+
+        <h4 id="SingleUse">
+            <b-icon icon="toggle-off"></b-icon>
+            <span>Toggle Single Use</span>
+            <b-tag type="is-danger">Patron Early-Access</b-tag>
+        </h4>
+
+        <p>
+            Toggles the Reaction Role to be single use;
+            Deletes reaction after use and cannot unassign the role through reaction.
+        </p>
+
+        <p>
+            Example Command: <code>r/togglesingleuse ReferenceID</code>
+        </p>
+
+        <ParamTable>
+            <ParamRow
+                name="ReferenceID"
+                type="String"
+                typeRef="/Documentation/ParameterTypes#String"
+                desc="The Reference ID given when creating" />
+        </ParamTable>
     </div>
 </template>
 
