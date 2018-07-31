@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Message title="What's the group lock feature?" tag="Patron Early-Access">
+        <Message title="What's the group lock feature?">
             The group lock feature is a system where you can lock a group of
             reaction-roles to only one available at a time.
         </Message>
