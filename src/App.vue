@@ -37,10 +37,6 @@
                                         <b-icon icon="chart-bar" pack="far"></b-icon>&nbsp;
                                         <span>Meaningless Trends</span>
                                     </router-link>
-                                    <router-link to="/Emojis" class="navbar-item">
-                                        <b-icon icon="gem" pack="far"></b-icon>&nbsp;
-                                        <span>Global Emojis</span>
-                                    </router-link>
                                 </div>
                             </div>
                         </div>

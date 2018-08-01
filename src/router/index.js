@@ -77,11 +77,6 @@ export default new Router({
             name: 'Trends',
             component: Trends,
         },
-        {
-            path: '/Emojis',
-            name: 'Emojis',
-            component: Emojis,
-        },
     ],
     scrollBehavior(to, from, savedPosition) {
         if (to.hash) {
