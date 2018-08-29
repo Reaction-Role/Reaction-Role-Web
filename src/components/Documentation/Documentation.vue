@@ -110,7 +110,7 @@
                         exact-active-class="is-active">
                             <b-icon icon="lock"></b-icon>
                             <span>Group Lock</span>
-                            <b-tag type="is-purple">Now available to everyone!</b-tag>
+                            <b-tag type="is-primary">Now available to everyone!</b-tag>
                         </router-link>
                         <ul>
                             <li>

@@ -19,7 +19,7 @@
                 </a>
                 <router-link id="doc_btn"
                     to="/Documentation"
-                    class="button is-large is-outlined is-dark">
+                    class="button is-large is-outlined is-warning">
                         <b-icon icon="file-alt" pack="far"></b-icon>
                     <span>View Docs</span>
                 </router-link>

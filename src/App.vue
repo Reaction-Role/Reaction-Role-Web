@@ -1,5 +1,5 @@
 <template>
-    <section id="app" class="hero is-fullheight">
+    <section id="app" class="hero is-sea is-fullheight">
         <div class="hero-head">
             <nav class="navbar" role="navigation" aria-label="Navigation">
                 <div class="container">
@@ -62,15 +62,6 @@
                 <keep-alive><router-view></router-view></keep-alive>
             </div>
         </div>
-        <div class="hero-footer">
-            <div class="container">
-                <footer class="footer">
-                    <div class="content has-text-centered">
-                        Constructed and curated by <a href="https://keybase.io/rumblefrog" target="_blank">Fishy!#6593</a>
-                    </div>
-                </footer>
-            </div>
-        </div>
     </section>
 </template>
 
@@ -88,6 +79,15 @@ export default {
 <style lang="scss">
 @import "~bulma/sass/utilities/_all";
 
+$primary: #06FFFF;
+$primary-invert: findColorInvert($primary);
+
+$sea: #141A2E;
+$sea-invert: findColorInvert($sea);
+
+$light-sea: #1C2237;
+$light-sea-invert: findColorInvert($light-sea);
+
 $colors: (
     "white": ($white, $black),
     "black": ($black, $white),
@@ -98,16 +98,53 @@ $colors: (
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),
     "danger": ($danger, $danger-invert),
-    "purple": ($purple, $purple-invert)
+    "sea": ($sea, $sea-invert),
+    "light-sea": ($light-sea, $light-sea-invert),
 );
 
-$footer-background-color: $white;
+$background: $sea;
+$link: $white;
 
-@import "~bulmaswatch/sandstone/_variables";
+$family-sans-serif: "Montserrat", sans-serif;
+
+$family-primary: $family-sans-serif;
+
+$navbar-background-color: $light-sea;
+$navbar-item-hover-background-color: $sea;
+$navbar-item-active-color: $sea;
+$navbar-dropdown-background-color: $light-sea;
+
+$box-color: $light-sea-invert;
+$box-background-color: $light-sea;
+
+$card-color: $light-sea-invert;
+$card-header-color: $light-sea-invert;
+$card-background-color: $light-sea;
+
+$content-heading-color: $light-sea-invert;
+$content-table-cell-heading-color: $light-sea-invert;
+$content-table-head-cell-color: $light-sea-invert;
+$content-table-foot-cell-color: $light-sea-invert;
+
+$menu-item-color: $light-sea-invert;
+$menu-item-hover-background-color: $light-sea;
+$menu-item-active-background-color: $light-sea;
+
+$timeline-marker-color: $light-sea;
+
+$table-color: $light-sea-invert;
+$table-background-color: $light-sea;
+$table-cell-heading-color: $light-sea-invert;
+$table-head-cell-color: $light-sea-invert;
+$table-foot-cell-color: $light-sea-invert;
+$table-row-hover-background-color: $sea;
+
+$code-background: $light-sea;
+
 @import "~bulma";
 @import "~bulma-extensions/bulma-timeline/src/sass/index";
-@import "~bulmaswatch/sandstone/_overrides";
 @import "~buefy/src/scss/buefy";
+@import "./style/fonts";
 </style>
 
 <style scoped>
