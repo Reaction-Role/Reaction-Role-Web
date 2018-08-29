@@ -17,7 +17,7 @@ import Videos from '@/components/Videos/Videos';
 import FAQ from '@/components/FAQ/FAQ';
 
 import Trends from '@/components/Misc/Trends';
-import Emojis from '@/components/Misc/Emojis';
+// import Emojis from '@/components/Misc/Emojis';
 
 Vue.use(Router);
 
