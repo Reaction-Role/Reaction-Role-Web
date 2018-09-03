@@ -7,7 +7,7 @@
 
         <hr>
 
-        <h4 id="String">String</h4>
+        <h4 id="String" class="has-text-primary">String</h4>
 
         <p>
             Consist of a sequence of characters.
@@ -16,13 +16,13 @@
             or else it will interpret it as mulitple strings
         </p>
 
-        <h4 id="Integer">Integer</h4>
+        <h4 id="Integer" class="has-text-primary">Integer</h4>
 
         <p>
             Numbers without decimal (whole numbers)
         </p>
 
-        <h4 id="Mention">Mention</h4>
+        <h4 id="Mention" class="has-text-primary">Mention</h4>
 
         <p>
             Discord mentions, this can either be Channel mention or Role mention.
@@ -38,7 +38,7 @@
             or resolved with a Role name string
         </p>
 
-        <h4 id="Emoji">Emoji</h4>
+        <h4 id="Emoji" class="has-text-primary">Emoji</h4>
 
         <p>
             Discord stock, custom or external emoji

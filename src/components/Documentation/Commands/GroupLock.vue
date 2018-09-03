@@ -26,7 +26,7 @@
         </div>
 
         <p>
-            Example Command: <code>r/lockmessage MessageID</code>
+            Example Command: <code>r/lockmessage 473617483266392088</code>
         </p>
 
         <ParamTable>
@@ -49,7 +49,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/createlock ReferenceID...</code>
+            Example Command: <code>r/createlock 2VEDmaigE HJOHcbbAM HJCxxf-Af...</code>
         </p>
 
         <ParamTable>
@@ -70,7 +70,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/releaselock ReferenceID</code>
+            Example Command: <code>r/releaselock HkJ2k_AGX</code>
         </p>
 
         <ParamTable>
@@ -91,7 +91,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/togglelegacy ReferenceID</code>
+            Example Command: <code>r/togglelegacy HkJ2k_AGX</code>
         </p>
 
         <ParamTable>

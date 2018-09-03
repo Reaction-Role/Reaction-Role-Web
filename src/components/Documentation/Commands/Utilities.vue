@@ -34,7 +34,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/prefix NewPrefix</code>
+            Example Command: <code>r/prefix r!</code>
         </p>
 
         <ParamTable>
@@ -55,7 +55,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/fetchmessage MessageID</code>
+            Example Command: <code>r/fetchmessage 473617483266392088</code>
         </p>
 
         <ParamTable>
@@ -76,7 +76,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/fetchlock MessageID</code>
+            Example Command: <code>r/fetchlock 473617483266392088</code>
         </p>
 
         <ParamTable>

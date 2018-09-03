@@ -1,7 +1,7 @@
 <template>
     <div :id="slugify(title)" class="container is-fluid">
         <h1 class="subtitle">
-            <span>{{ title }}</span>
+            <span class="has-text-warning">{{ title }}</span>
             <b-tag v-if="tag" :type="tagType">{{ tag }}</b-tag>
         </h1>
 
