@@ -50,10 +50,12 @@
                 <div class="timeline-content">
                     <p class="heading">Create Reaction Role</p>
                     <p>
-                        <router-link to="/Documentation/FindMessageID" class="has-text-success">
+                        <router-link to="/Documentation/FindMessageID"
+                            class="has-text-success">
                             Find and copy the message ID
                         </router-link> of the message you created and use it in
-                        <router-link to="/Documentation/ReactionRole#Create" class="has-text-success">
+                        <router-link to="/Documentation/ReactionRole#Create"
+                            class="has-text-success">
                             ReactionRole
                         </router-link>
                     </p>
@@ -70,14 +72,17 @@
                     <p class="heading">Finished!</p>
                     <p>
                         From here, you finished! But for additional configuration: checkout
-                        <router-link to="/Documentation/GroupLock" class="has-text-success">
+                        <router-link to="/Documentation/GroupLock"
+                            class="has-text-success">
                             Group Locking!
                         </router-link>
                         If you are a Patron, checkout
-                        <router-link to="/Documentation/ReactionRole#Lifespan" class="has-text-success">
+                        <router-link to="/Documentation/ReactionRole#Lifespan"
+                            class="has-text-success">
                             lifespan
                         </router-link>and
-                        <router-link to="/Documentation/ReactionRole#SingleUse" class="has-text-success">
+                        <router-link to="/Documentation/ReactionRole#SingleUse"
+                            class="has-text-success">
                             single use
                         </router-link>
                     </p>

@@ -17,7 +17,8 @@
                 src="/static/video/group_lock.mp4" />
         </div>
         <div class="columns">
-            <span class="column has-text-centered">Want your tutorial video featured here? Check out the
+            <span class="column has-text-centered">
+                Want your tutorial video featured here? Check out the
                 <router-link to="FAQ" class="has-text-success">FAQ</router-link>
             for more info.</span>
         </div>
