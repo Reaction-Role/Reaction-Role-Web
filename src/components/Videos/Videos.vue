@@ -13,7 +13,7 @@
 
             <Video
                 title="Group Lock"
-                desc="Demonstration of the Patron's feature: Group Locking"
+                desc="Demonstration of Group Locking"
                 src="/static/video/group_lock.mp4" />
         </div>
         <div class="columns">
