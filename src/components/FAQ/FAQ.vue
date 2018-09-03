@@ -25,6 +25,11 @@
             with the video link and a brief description of the video.
         </Message>
 
+        <Message title="How long will this bot stay up?">
+            The bot will stay up as long as I receive sufficient funding via Patreon. However,
+            the upcoming Patron only bot will stay up as long as I remain interested.
+        </Message>
+
         <Message title="Is the bot open-source?">
             Unfortunately not, the bot will strictly be closed source.
         </Message>
