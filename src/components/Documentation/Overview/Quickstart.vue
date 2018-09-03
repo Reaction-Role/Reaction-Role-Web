@@ -23,7 +23,7 @@
                     <p class="heading">Prefer videos?</p>
                     <p>
                         If you prefer video tutorials, checkout the
-                        <router-link to="/Videos">
+                        <router-link to="/Videos" class="has-text-success">
                             videos
                         </router-link>
                         that we have. Otherwise, continue with the steps.
@@ -37,7 +37,7 @@
                 <div class="timeline-content">
                     <p class="heading">Setup a message in which your users will react to</p>
                     <p>This can in the form of a regular message you type or
-                        <router-link to="/Documentation/MessageEmbed">
+                        <router-link to="/Documentation/MessageEmbed" class="has-text-success">
                             MessageEmbed
                         </router-link>
                     </p>
@@ -50,10 +50,10 @@
                 <div class="timeline-content">
                     <p class="heading">Create Reaction Role</p>
                     <p>
-                        <router-link to="/Documentation/FindMessageID">
+                        <router-link to="/Documentation/FindMessageID" class="has-text-success">
                             Find and copy the message ID
                         </router-link> of the message you created and use it in
-                        <router-link to="/Documentation/ReactionRole#Create">
+                        <router-link to="/Documentation/ReactionRole#Create" class="has-text-success">
                             ReactionRole
                         </router-link>
                     </p>
@@ -70,14 +70,14 @@
                     <p class="heading">Finished!</p>
                     <p>
                         From here, you finished! But for additional configuration: checkout
-                        <router-link to="/Documentation/GroupLock">
+                        <router-link to="/Documentation/GroupLock" class="has-text-success">
                             Group Locking!
                         </router-link>
                         If you are a Patron, checkout
-                        <router-link to="/Documentation/ReactionRole#Lifespan">
+                        <router-link to="/Documentation/ReactionRole#Lifespan" class="has-text-success">
                             lifespan
                         </router-link>and
-                        <router-link to="/Documentation/ReactionRole#SingleUse">
+                        <router-link to="/Documentation/ReactionRole#SingleUse" class="has-text-success">
                             single use
                         </router-link>
                     </p>

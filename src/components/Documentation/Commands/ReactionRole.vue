@@ -22,7 +22,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/addrole #Channel MessageID :Emoji: @Role</code>
+            Example Command: <code>r/addrole #welcome 473617483266392088 :thumbsup: @Member</code>
         </p>
 
         <ParamTable>
@@ -68,7 +68,7 @@
         <hr>
 
         <p>
-            Example Command: <code>r/removerole ReferenceID</code>
+            Example Command: <code>r/removerole 2VEDmaigE</code>
         </p>
 
         <ParamTable>
@@ -89,7 +89,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/removeallroles MessageID</code>
+            Example Command: <code>r/removeallroles 473617483266392088</code>
         </p>
 
         <ParamTable>
@@ -123,7 +123,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/setlifespan ReferenceID Lifespan</code>
+            Example Command: <code>r/setlifespan 2VEDmaigE 60</code>
         </p>
 
         <ParamTable>
@@ -151,7 +151,7 @@
         </p>
 
         <p>
-            Example Command: <code>r/togglesingleuse ReferenceID</code>
+            Example Command: <code>r/togglesingleuse 2VEDmaigE</code>
         </p>
 
         <ParamTable>

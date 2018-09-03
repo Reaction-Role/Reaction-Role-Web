@@ -22,8 +22,12 @@
         tutorial video featured on the videos page?">
             If you feel like your video is up to the quality standard and would like it
             be featured on the videos page, contact me at <email>fishy@reaction-role.com</email>
-            with the video link and a brief description of the video. I will reply back asking for
-            more info If I deem that it should be featured.
+            with the video link and a brief description of the video.
+        </Message>
+
+        <Message title="How long will this bot stay up?">
+            The bot will stay up as long as I receive sufficient funding via Patreon. However,
+            the upcoming Patron only bot will stay up as long as I remain interested.
         </Message>
 
         <Message title="Is the bot open-source?">
