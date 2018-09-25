@@ -35,7 +35,7 @@
                 </p>
                 <h2 class="title sponsor-title">Sponsor</h2>
                 <div>
-                    <a href="https://discord.gg/MrdCAnE" target="_blank" title="Tuxedo Gaming">
+                    <a href="https://discord.gg/f843VN9" target="_blank" title="Tuxedo Gaming">
                         <img src="~@/assets/img/sponsor.png" class="sponsor-asset">
                     </a>
                 </div>
