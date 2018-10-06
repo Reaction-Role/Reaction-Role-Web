@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="content">
-                    {{ video.snippet.description.substr(0, 80) + '...' }}
+                    {{ GetVideoDesc() }}
                 </div>
             </div>
         </div>
@@ -43,6 +43,14 @@ export default {
         },
         GetChannelLink() {
             return `https://www.youtube.com/channel/${this.author.id}`;
+        },
+        GetVideoDesc() {
+            this.video.snippet.description = this.video.snippet.description.replace('▬', '');
+
+            if (this.video.snippet.description.length > 100)
+                return this.video.snippet.description.substr(0, 100) + '...';
+
+            return this.video.snippet.description;
         },
     },
 };
