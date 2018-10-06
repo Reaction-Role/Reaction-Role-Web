@@ -47,8 +47,9 @@ export default {
         GetVideoDesc() {
             this.video.snippet.description = this.video.snippet.description.replace('▬', '');
 
-            if (this.video.snippet.description.length > 100)
-                return this.video.snippet.description.substr(0, 100) + '...';
+            if (this.video.snippet.description.length > 100) {
+                return `${this.video.snippet.description.substr(0, 100)}...`;
+            }
 
             return this.video.snippet.description;
         },
