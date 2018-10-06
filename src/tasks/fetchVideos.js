@@ -62,8 +62,6 @@ async function fetchVideos(opt = {}) {
         process.exit(1);
     }
 
-    console.log(cIDs);
-
     [ err, result ] = await to(
         Axios.get('https://www.googleapis.com/youtube/v3/channels', {
             params: {
