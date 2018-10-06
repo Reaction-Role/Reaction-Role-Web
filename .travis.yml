@@ -11,6 +11,7 @@ install:
 
 script:
   - node src/tasks/fetchPatrons.js
+  - node src/tasks/fetchVideos.js $ytkey
   - yarn unit
   - yarn build
 
