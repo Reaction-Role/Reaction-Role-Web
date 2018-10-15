@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content overflow-break">
                     {{ GetVideoDesc() }}
                 </div>
             </div>
@@ -77,5 +77,8 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.overflow-break {
+    overflow-wrap: break-word;
 }
 </style>
