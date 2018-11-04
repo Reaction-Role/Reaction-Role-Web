@@ -33,12 +33,12 @@
                     Your donation contributes directly to the hosting cost,
                     and the development effort.
                 </p>
-                <h2 class="title sponsor-title">Sponsor</h2>
+                <!-- <h2 class="title sponsor-title">Sponsor</h2>
                 <div>
-                    <a href="https://discord.gg/f843VN9" target="_blank" title="Tuxedo Gaming">
+                    <a href="SPONSOR_LINK" target="_blank" title="Tuxedo Gaming">
                         <img src="~@/assets/img/sponsor.png" class="sponsor-asset">
                     </a>
-                </div>
+                </div> -->
                 <h2 class="title sponsor-title">Patrons</h2>
                 <div class="columns is-multiline">
                     <div class="column is-1" v-for="Patron in Patrons" :key="Patron.id">
