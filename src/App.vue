@@ -70,8 +70,8 @@
                         and is supposedly investigating,
                         I have no ETA to provide as of how long until a fix can be delivered.
                         For the meantime,
-                        I would advise against using this bot for any critical server functions,
-                        and checkout other bots such as Yagpdb that's not suffering from this issue.
+                        I would advise against using this bot for any critical server functions
+                        and check out other bots such as Yagpdb that are not suffering from this issue.
                         I am sorry for the inconvenience this causes,
                         but this is far out of my reach.
                         If you want to do something about this,
