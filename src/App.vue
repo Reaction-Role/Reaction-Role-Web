@@ -59,28 +59,6 @@
         </div>
         <div class="hero-body">
             <div class="container">
-                <div class="notification is-danger">
-                    <p>
-                        For the past two weeks,
-                        this bot and numerous other bots have been suffering from
-                        problems residing on Discord's side
-                        (mainly between 10:00 to 18:00 EST),
-                        causing significant outages and instabilities.
-                        While Discord has <a href="https://i.imgur.com/b3pBlYU.png/" target="_blank">acknowledged the issue</a>
-                        and is supposedly investigating,
-                        I have no ETA to provide as of how long until a fix can be delivered.
-                        For the meantime,
-                        I would advise against using this bot for any critical server functions
-                        and check out other bots such as Yagpdb that are not suffering from this issue.
-                        I am sorry for the inconvenience this causes,
-                        but this is far out of my reach.
-                        If you want to do something about this,
-                        tweet @discordapp to expedite the awareness.
-                        If you would like to know more information, feel free to join my server.
-                    </p>
-
-                </div>
-
                 <keep-alive><router-view></router-view></keep-alive>
             </div>
         </div>
