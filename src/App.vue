@@ -47,7 +47,11 @@
                             </a>
                             <a href="https://discord.gg/TZ4BsrQ" class="navbar-item" target="_blank">
                                 <b-icon icon="discord" pack="fab"></b-icon>&nbsp;
-                                <span>Our Server</span>
+                                <span>Our Discord</span>
+                            </a>
+                            <a href="https://www.reddit.com/r/reactionrole" class="navbar-item" target="_blank">
+                                <b-icon icon="reddit" pack="fab"></b-icon>&nbsp;
+                                <span>Subreddit</span>
                             </a>
                             <a href="https://www.patreon.com/RumbleFrog" class="navbar-item patreon-button" target="_blank">
                                 <img src="/static/img/become_a_patron_button.png">
