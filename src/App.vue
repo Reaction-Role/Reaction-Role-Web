@@ -41,14 +41,14 @@
                             </div>
                         </div>
                         <div class="navbar-end">
-                            <a href="https://discordbots.org/bot/441751906428256277/vote" class="navbar-item" target="_blank">
+                            <!-- <a href="https://discordbots.org/bot/441751906428256277/vote" class="navbar-item" target="_blank">
                                 <b-icon icon="chevron-up"></b-icon>&nbsp;
                                 <span>Vote</span>
                             </a>
                             <a href="https://discord.gg/TZ4BsrQ" class="navbar-item" target="_blank">
                                 <b-icon icon="discord" pack="fab"></b-icon>&nbsp;
                                 <span>Our Discord</span>
-                            </a>
+                            </a> -->
                             <a href="https://www.reddit.com/r/reactionrole" class="navbar-item" target="_blank">
                                 <b-icon icon="reddit" pack="fab"></b-icon>&nbsp;
                                 <span>Subreddit</span>

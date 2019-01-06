@@ -37,6 +37,10 @@
         <Message title="I have a suggestion!">
             That's great! You can join our server to discuss your idea
         </Message>
+
+        <Message title="Where's the server or invite button?">
+            Right now, the bot is undergoing a major rewrite. Until that's done, the buttons have been disabled and hidden.
+        </Message>
     </div>
 </template>
 
