@@ -12,11 +12,11 @@
             use the main feature of the bot without it.
         </Message>
 
-        <Message title="Are you looking for partnership?">
+        <!-- <Message title="Are you looking for partnership?">
             Of course, if you run a large size guild (5000+ members)
             and is interested in becoming a partner, reach out to me at
             <email>fishy@reaction-role.com</email>
-        </Message>
+        </Message> -->
 
         <Message title="How can I get my Reaction Role
         tutorial video featured on the videos page?">
@@ -34,9 +34,9 @@
             Unfortunately not, the bot will strictly be closed source.
         </Message>
 
-        <Message title="I have a suggestion!">
+        <!-- <Message title="I have a suggestion!">
             That's great! You can join our server to discuss your idea
-        </Message>
+        </Message> -->
 
         <Message title="Where's the server or invite button?">
             Right now, the bot is undergoing a major rewrite. Until that's done, the buttons have been disabled and hidden.
