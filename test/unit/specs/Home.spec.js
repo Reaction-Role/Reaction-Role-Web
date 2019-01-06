@@ -20,10 +20,10 @@ describe('Home.vue', () => {
             .to.not.have.lengthOf(0);
     });
 
-    it('Renders Invite Button', () => {
-        expect(vm.$el.querySelector('#invite_btn').href)
-            .to.contain('https://discordapp.com/oauth2/authorize');
-    });
+    // it('Renders Invite Button', () => {
+    //     expect(vm.$el.querySelector('#invite_btn').href)
+    //         .to.contain('https://discordapp.com/oauth2/authorize');
+    // });
 
     it('Renders Documentation Button', () => {
         expect(vm.$el.querySelector('#doc_btn').textContent)
