@@ -63,7 +63,7 @@
         </div>
         <div class="hero-body">
             <div class="container">
-                <div class="notification is-danger">
+                <!-- <div class="notification is-danger">
                     <p>
                         I'm well aware of the frequent outages.
                         Unfortunately, it's going to stay that way
@@ -76,7 +76,7 @@
                         allowing this project to grow so big, wouldn't
                         been possible without every single one of you.
                     </p>
-                </div>
+                </div> -->
 
                 <keep-alive><router-view></router-view></keep-alive>
             </div>
