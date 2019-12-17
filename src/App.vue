@@ -63,20 +63,15 @@
         </div>
         <div class="hero-body">
             <div class="container">
-                <!-- <div class="notification is-danger">
+                <div class="notification is-info">
                     <p>
-                        I'm well aware of the frequent outages.
-                        Unfortunately, it's going to stay that way
-                        until the v2 rewrite is complete (view
-                        subreddit for more info). In the meantime,
-                        you are welcome to switch to other bots
-                        (YAGPDB, Carl, Zira, etc.). For remaining
-                        v1 users, I will update you as v2 closed
-                        beta becomes available. Thank you guys for
-                        allowing this project to grow so big, wouldn't
-                        been possible without every single one of you.
+                        While the free variant of the bot's uptime has
+						been stabilized, I will not open the invite up
+						in order to preserve the stability for the individuals
+						already using it. That being said, the Patreon(+) variant
+						is available for pledgers on Patreon.
                     </p>
-                </div> -->
+                </div>
 
                 <keep-alive><router-view></router-view></keep-alive>
             </div>
