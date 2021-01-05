@@ -20,7 +20,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "animate.css": "^3.6.1",
     "await-to-js": "^2.0.1",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "buefy": "^0.6.6",
     "bulma-extensions": "^2.2.1",
     "bulmaswatch": "^0.7.0",
