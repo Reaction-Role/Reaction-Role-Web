@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rumblefrog
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://reaction-role.com
+  * I am rumblefrog (https://keybase.io/rumblefrog) on keybase.
+  * I have a public key with fingerprint FFEE 23D8 21A8 36C5 6361  D5F6 DE33 7F45 080C B46B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a0aec713e8f41ec8dfef4e41ae8ec95a928914ea941965b3ad5251ea3efa06e50a",
+      "fingerprint": "ffee23d821a836c56361d5f6de337f45080cb46b",
+      "host": "keybase.io",
+      "key_id": "de337f45080cb46b",
+      "kid": "0101a0aec713e8f41ec8dfef4e41ae8ec95a928914ea941965b3ad5251ea3efa06e50a",
+      "uid": "c22e4f69189e72e357097911386db419",
+      "username": "rumblefrog"
+    },
+    "service": {
+      "hostname": "reaction-role.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1528116292,
+  "expire_in": 157680000,
+  "prev": "de98a03e0da5094c336242b89637e5e9ba1da46552f467d88ee171caf063576a",
+  "seqno": 64,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIuAnicrZJbSBVBGMePZZaKIYESGkEbnbJMdnZ3ZnePD92DontSJwyOs7vfnrOp
+Z0+7eyy1G0R2hQpC6kUju2lFEd3IHixCiowetMgQMqEUIcLKiAprVvKtx+ZlmG/+
+/9988+d7nDU+kJGyYO3mzDO/s06nPHvYmAyU5khLaznNNqq5UC1XDqMbVBjgepFy
+y+BCHI94RHkKuoxEUEwJga4YJpgSSIiCArqKqSooKpKAqhJSCdZEamABI6AimJQn
+gHnKFXKmFY+Ck3CsuMewpgkgiIYiIKqIRMdEJMjAJjFAFGVTwrzC65pENGaM2a7v
+YM1p1IUiy2Y1doiMtvcP/X/uOzmK0wUBJJOoSFFBFkDEMq/KKkKiQgyN2X2hC06c
+VgJTO8lKrQJMx45yuws5Vq+ydPCj9f8ypgGqe5Ydn+/YFVCk25UMkXBsz9btCnYd
+87yEG/LtXnXC1+8ALfKXFNGsuMHiZI4qcFwG4UKIKRnPRyMsKAgRQRUKOdiZsByI
+WL4Cy0Th2fLfgarR8FSF8iLwBsW8KumiSARJ0BSViDJgUDWKDCoRjAVTIrKhKABI
+Rjo1ecICIH46LmyP21yISKxPGmVM14rGqZd0gNv9qG1raiAlI5A2YZw/Z4GM9Oyx
+6bs6OClwOLtx8vLLzTsi84rVfYubhtqft63sFWZFf41cDK9Mfx/u61jVldNwP3zb
+3Vayq/va1Jrc2fdWb9ywpqmmAHcEZ7bU3phSNy0990V9aSz1Ln/tws8P+vPOguxZ
+l56e7C9vlftXcNaKPetHujtPvdwF+T8abtzpih/wNp0oaRo+OJLfeKD+7ZOjycyy
+V5/meA/scLC/J/H9ZmxhXfPw3I6tWd0dfSPfG6J7zBk53Uf2PxtaVnKsJbblSjDY
+HpycP9hwbnvxefNwzZIvh9Tjexdtutw4ccLwujef8y59u7uktH71u8f3wmZPWmbe
+zOtnN38UhToom97bg4ny+0n7QOvXgYLXt5rK/wC/aUWq
+=CLxp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rumblefrog
+
+==================================================================
