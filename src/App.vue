@@ -65,11 +65,13 @@
             <div class="container">
                 <div class="notification is-info">
                     <p>
-                        While the free variant of the bot's uptime has
-						been stabilized, I will not open the invite up
-						in order to preserve the stability for the individuals
-						already using it. That being said, the Patreon(+) variant
-						is available for pledgers on Patreon.
+                        Hello everyone.
+
+                        Within the next month or two, Discord will enforce a breaking change that will affect Reaction Role.
+
+                        As I don't have the time to maintain this project, I am advising individuals to switch to a different bot, such as Dyno or Carl bot.
+
+                        Thank you guys for the continuous support throughout the 5 years this bot has been running.
                     </p>
                 </div>
 
